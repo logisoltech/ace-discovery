@@ -8,10 +8,11 @@ import { useState } from "react";
 const navItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Forensics", href: "#" },
-  { label: "Technology", href: "#" },
-  { label: "Insights", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "Services", href: "/services" },
+  { label: "Forensics", href: "/forensics" },
+  { label: "Technology", href: "/technology" },
+  { label: "Insights", href: "/insights" },
+  { label: "Contact", href: "/contact" },
 ];
 
 function isActive(pathname, href) {
