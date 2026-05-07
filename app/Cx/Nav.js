@@ -180,13 +180,15 @@ export default function Nav() {
           >
             <SearchIcon />
           </button>
-          <button
-            type="button"
-            aria-label="Menu"
-            className="text-[#1d6fff] hover:text-[#0d5fef] p-2 rounded-full transition-colors"
+          <Link
+            href="/project-ticket"
+            aria-label="Project ticket form"
+            className={`text-[#1d6fff] hover:text-[#0d5fef] p-2 rounded-full transition-colors ${
+              pathname === "/project-ticket" ? "ring-2 ring-[#1d6fff]/35 ring-offset-2 ring-offset-transparent" : ""
+            }`}
           >
             <MenuListIcon />
-          </button>
+          </Link>
           <button
             type="button"
             aria-label="Account"
@@ -237,13 +239,16 @@ export default function Nav() {
             >
               <SearchIcon />
             </button>
-            <button
-              type="button"
-              aria-label="Menu"
-              className="text-[#1d6fff] hover:text-[#0d5fef] p-2 rounded-full transition-colors"
+            <Link
+              href="/project-ticket"
+              aria-label="Project ticket form"
+              onClick={() => setOpen(false)}
+              className={`text-[#1d6fff] hover:text-[#0d5fef] p-2 rounded-full transition-colors ${
+                pathname === "/project-ticket" ? "ring-2 ring-[#1d6fff]/35 ring-offset-2 ring-offset-transparent" : ""
+              }`}
             >
               <MenuListIcon />
-            </button>
+            </Link>
             <button
               type="button"
               aria-label="Account"
