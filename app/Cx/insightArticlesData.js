@@ -98,6 +98,100 @@ export const DETAIL_SLUG_BEYOND_BENCH_AI =
 export const DETAIL_SLUG_DATA_GOVERNANCE_DENVER =
   "the-cost-of-doing-nothing-inside-the-data-governance-roundtable-at-the-masters-conference-denver";
 
+/** Thirty-first through thirty-ninth — full articles */
+export const DETAIL_SLUG_LEGAL_HOLDS_PRESERVATION =
+  "legal-holds-and-preservation-best-practices-in-ediscovery";
+
+export const DETAIL_SLUG_CLOUD_EDISCOVERY =
+  "tackling-cloud-data-challenges-in-ediscovery";
+
+export const DETAIL_SLUG_EDISCOVERY_IN_ACTION =
+  "ediscovery-in-action-how-it-is-shaping-legal-strategy";
+
+export const DETAIL_SLUG_MASTERS_DENVER_ROOM =
+  "why-youll-want-to-be-in-the-room-at-masters-conference-denver";
+
+export const DETAIL_SLUG_LEGAL_GEEK_CHICAGO =
+  "legal-ai-in-focus-unpack-whats-next-at-legal-geek-chicago";
+
+export const DETAIL_SLUG_SUSTAINABILITY_LEGAL_TECH =
+  "sustainability-in-practice-how-legal-tech-can-lead-the-way";
+
+export const DETAIL_SLUG_PRIVILEGE_CLE_DC =
+  "the-privilege-protection-showdown-kevins-cle-edition-in-washington-dc";
+
+export const DETAIL_SLUG_AI_LITIGATION_CLE =
+  "ai-meets-litigation-the-game-changer-cle-you-cant-miss";
+
+export const DETAIL_SLUG_LEGALWEEK_126K =
+  "the-law-firm-that-reviewed-126-000-documents-in-1-day-with-ai";
+
+/** Fortieth through fiftieth — full articles */
+export const DETAIL_SLUG_CASEGUILD_PARTNERSHIP =
+  "from-data-to-strategy-faster-right-discovery-caseguild-join-forces-to-transform-early-case-evalu";
+
+export const DETAIL_SLUG_EDISCOVERY_AI_PARTNERSHIP =
+  "revolutionizing-ai-powered-document-review-right-discovery-and-ediscovery-ai-announce-strategic-partnership";
+
+export const DETAIL_SLUG_MASTERS_DALLAS_DYNASTY =
+  "the-legal-tech-dynasty-returns-to-dallas-masters-conference-march-5th";
+
+export const DETAIL_SLUG_MODERN_COMMUNICATIONS_STORY =
+  "modern-communications-data-and-discovery-leveraging-all-available-data-to-tell-the-story";
+
+export const DETAIL_SLUG_MASTERS_LA_FUTURE =
+  "masters-conference-los-angeles-ai-legal-data-intelligence-and-the-future-of-ediscovery";
+
+export const DETAIL_SLUG_MARLA_MOHR_HIRE =
+  "right-discovery-welcomes-industry-veteran-marla-mohr-ceds-to-drive-client-growth-and-engagement";
+
+export const DETAIL_SLUG_CAL_ACTIVE_LEARNING =
+  "streamlining-legal-data-review-with-continuous-active-learning";
+
+export const DETAIL_SLUG_ACEDS_AUSTIN =
+  "kevins-lone-star-adventure-right-discovery-heads-to-austin-for-aceds-ediscovery-day";
+
+export const DETAIL_SLUG_MASTERS_NAVIGATE_NEXT_WAVE =
+  "navigate-the-next-wave-ai-cybersecurity-and-legal-tech-at-the-masters-conference";
+
+export const DETAIL_SLUG_FORENSICS_CSI =
+  "from-hard-drives-to-high-crimes-digital-forensics-meets-csi-style-investigation";
+
+/** Truncates at 96 chars in slugify — must match grid slug exactly */
+export const DETAIL_SLUG_EVERLAW_PARTNERSHIP_ENHANCED =
+  "right-discovery-enhances-legal-support-services-through-a-strengthened-and-strategic-partnership";
+
+/** Fifty-first through sixtieth — full articles */
+export const DETAIL_SLUG_ICONECT_IR =
+  "right-discovery-selects-iconect-as-the-preferred-incident-response-review-software-provider";
+
+export const DETAIL_SLUG_RICH_ROBINSON_INTERVIEW =
+  "get-the-inside-scoop-on-next-weeks-legal-power-skills-conference-an-exclusive-interview-with-ric";
+
+export const DETAIL_SLUG_PAPER_CHASE_PIXEL =
+  "from-paper-chase-to-pixel-perfect-how-ediscovery-software-evolved-and-ushered-in-a-new-era-of-ed";
+
+export const DETAIL_SLUG_MASTERS_POWER_SKILLS_LAUNCH =
+  "join-us-for-the-launch-of-masters-conference-legal-power-skills-on-july-25th-in-nyc";
+
+export const DETAIL_SLUG_MASTERS_NYC_JULY24 =
+  "be-sure-to-attend-the-masters-conference-new-york-on-july-24th";
+
+export const DETAIL_SLUG_EDRM_FRAMEWORK =
+  "edrm-the-foundational-framework-for-conceptualizing-the-ediscovery-process";
+
+export const DETAIL_SLUG_MASTERING_EDISCOVERY_PM =
+  "mastering-ediscovery-project-management";
+
+export const DETAIL_SLUG_FTC_NONCOMPETE =
+  "federal-trade-commission-adopts-a-comprehensive-ban-on-new-noncompetes";
+
+export const DETAIL_SLUG_COVID_ONGOING =
+  "embracing-change-covid-19s-ongoing-impact";
+
+export const DETAIL_SLUG_MASTERS_DC_DEVICES =
+  "masters-conference-washington-dc-modern-data-devices-in-transit-discussion-panel";
+
 const SLUGS_WITH_FULL_ARTICLE = new Set([
   DETAIL_SLUG_ESI_GENAI,
   DETAIL_SLUG_DATA_OVERLOAD,
@@ -129,6 +223,36 @@ const SLUGS_WITH_FULL_ARTICLE = new Set([
   DETAIL_SLUG_UNDER_ATTACK_CYBER,
   DETAIL_SLUG_BEYOND_BENCH_AI,
   DETAIL_SLUG_DATA_GOVERNANCE_DENVER,
+  DETAIL_SLUG_LEGAL_HOLDS_PRESERVATION,
+  DETAIL_SLUG_CLOUD_EDISCOVERY,
+  DETAIL_SLUG_EDISCOVERY_IN_ACTION,
+  DETAIL_SLUG_MASTERS_DENVER_ROOM,
+  DETAIL_SLUG_LEGAL_GEEK_CHICAGO,
+  DETAIL_SLUG_SUSTAINABILITY_LEGAL_TECH,
+  DETAIL_SLUG_PRIVILEGE_CLE_DC,
+  DETAIL_SLUG_AI_LITIGATION_CLE,
+  DETAIL_SLUG_LEGALWEEK_126K,
+  DETAIL_SLUG_CASEGUILD_PARTNERSHIP,
+  DETAIL_SLUG_EDISCOVERY_AI_PARTNERSHIP,
+  DETAIL_SLUG_MASTERS_DALLAS_DYNASTY,
+  DETAIL_SLUG_MODERN_COMMUNICATIONS_STORY,
+  DETAIL_SLUG_MASTERS_LA_FUTURE,
+  DETAIL_SLUG_MARLA_MOHR_HIRE,
+  DETAIL_SLUG_CAL_ACTIVE_LEARNING,
+  DETAIL_SLUG_ACEDS_AUSTIN,
+  DETAIL_SLUG_MASTERS_NAVIGATE_NEXT_WAVE,
+  DETAIL_SLUG_FORENSICS_CSI,
+  DETAIL_SLUG_EVERLAW_PARTNERSHIP_ENHANCED,
+  DETAIL_SLUG_ICONECT_IR,
+  DETAIL_SLUG_RICH_ROBINSON_INTERVIEW,
+  DETAIL_SLUG_PAPER_CHASE_PIXEL,
+  DETAIL_SLUG_MASTERS_POWER_SKILLS_LAUNCH,
+  DETAIL_SLUG_MASTERS_NYC_JULY24,
+  DETAIL_SLUG_EDRM_FRAMEWORK,
+  DETAIL_SLUG_MASTERING_EDISCOVERY_PM,
+  DETAIL_SLUG_FTC_NONCOMPETE,
+  DETAIL_SLUG_COVID_ONGOING,
+  DETAIL_SLUG_MASTERS_DC_DEVICES,
 ]);
 
 function slugify(title) {
