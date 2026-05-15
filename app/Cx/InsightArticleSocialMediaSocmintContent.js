@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleSocialMediaSocmintContent() {
   return (
@@ -10,7 +10,7 @@ export default function InsightArticleSocialMediaSocmintContent() {
         Recap · Masters Conference New York
       </p>
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -36,7 +36,7 @@ export default function InsightArticleSocialMediaSocmintContent() {
         screenshot cowboy tactics. Alias resolution and proactive ECA playbooks keep
         squabbles from metastasizing mid-trial.
       </p>
-      <blockquote className="my-8 border-l-4 border-[#0e5599] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
+      <blockquote className="my-8 border-l-4 border-[#2484C6] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
         &quot;You can&apos;t afford to overlook the digital footprints people leave
         behind in public and semi-public spaces.&quot;
       </blockquote>
@@ -45,7 +45,7 @@ export default function InsightArticleSocialMediaSocmintContent() {
         <strong className="text-white/90">Topics:</strong> social media intelligence,
         SOCMINT, investigations, eDiscovery,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
         , Facebook, Instagram, X, Venmo, Strava, preservation, chain of custody,
         behavioral evidence

@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 function SectionHeading({ children }) {
   return (
     <h2
       className="mt-10 mb-4 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-      style={{ backgroundColor: "#0e5599" }}
+      style={{ backgroundColor: "#004972" }}
     >
       {children}
     </h2>
@@ -20,7 +20,7 @@ export default function InsightArticleBeyondBuzzAiContent() {
       <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-white/75">
         Recap · Masters Conference Denver · 2023
       </p>
-      <p className="mb-6 text-lg italic text-white/90">Right Discovery Staff Writer</p>
+      <p className="mb-6 text-lg italic text-white/90">AC Discovery Staff Writer</p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         &quot;AI Stories from the Front Line&quot; paired{" "}
@@ -63,7 +63,7 @@ export default function InsightArticleBeyondBuzzAiContent() {
         beats brute-force token dumps.
       </p>
 
-      <blockquote className="my-8 border-l-4 border-[#0e5599] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
+      <blockquote className="my-8 border-l-4 border-[#2484C6] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
         &quot;AI isn&apos;t just changing how we practice law—it&apos;s changing
         what&apos;s possible.&quot;
       </blockquote>
@@ -79,7 +79,7 @@ export default function InsightArticleBeyondBuzzAiContent() {
         <strong className="text-white/90">Topics:</strong> generative AI, privilege
         logs, SimplyFile, Claude, OpenAI, prompt engineering, document review,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
         , Masters Conference Denver
       </p>

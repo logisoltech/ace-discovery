@@ -7,7 +7,7 @@ function InsightCard({ title, image, alt, imageClassName }) {
   const isRemote = image.startsWith("http");
 
   return (
-    <article className="group flex h-full flex-col overflow-hidden rounded-xl bg-[#0e5599] shadow-[0_12px_40px_rgba(0,0,0,0.35)] ring-1 ring-black/10 transition-shadow hover:shadow-[0_16px_48px_rgba(0,0,0,0.45)]">
+    <article className="group flex h-full flex-col overflow-hidden rounded-xl bg-[#004972] shadow-[0_12px_40px_rgba(0,0,0,0.35)] ring-1 ring-black/10 transition-shadow hover:shadow-[0_16px_48px_rgba(0,0,0,0.45)]">
       <div className="relative aspect-video w-full bg-black/30">
         <Image
           src={image}
@@ -49,7 +49,7 @@ export default function InsightsGrid() {
               <Link
                 key={slug}
                 href={`/insights/${slug}`}
-                className="block h-full rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5cc6ff]"
+                className="block h-full rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2484C6]"
               >
                 {card}
               </Link>

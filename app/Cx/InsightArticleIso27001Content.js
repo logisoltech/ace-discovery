@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleIso27001Content() {
   return (
@@ -13,7 +13,7 @@ export default function InsightArticleIso27001Content() {
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         LLC announces successful certification under{" "}
         <strong className="text-white">ISO/IEC 27001:2022</strong>, the current global
@@ -22,7 +22,7 @@ export default function InsightArticleIso27001Content() {
         eDiscovery, digital forensics, analytics, legal staffing, and cyber response
         programs.
       </p>
-      <blockquote className="my-8 border-l-4 border-[#0e5599] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
+      <blockquote className="my-8 border-l-4 border-[#2484C6] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
         &quot;With cybercrime escalating and legal data under constant threat,
         ISO/IEC 27001:2022 is not just a credential—it&apos;s a signal to our
         clients that we&apos;re operating at the highest level of security
@@ -34,7 +34,7 @@ export default function InsightArticleIso27001Content() {
 
       <h2
         className="mb-4 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         What certification reinforces
       </h2>
@@ -77,7 +77,7 @@ export default function InsightArticleIso27001Content() {
         <strong className="text-white/90">Topics:</strong> ISO/IEC 27001:2022, ISMS,
         cyber resilience, legal tech,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
         , regulatory compliance, digital forensics
       </p>

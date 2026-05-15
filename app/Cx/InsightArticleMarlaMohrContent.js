@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleMarlaMohrContent() {
   return (
@@ -13,7 +13,7 @@ export default function InsightArticleMarlaMohrContent() {
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         appoints{" "}
         <strong className="text-white">Marla Mohr, CEDS</strong>, as Director of Client
@@ -25,14 +25,14 @@ export default function InsightArticleMarlaMohrContent() {
         She will steward strategic partnerships, onboarding, and training programs that
         translate platform investments into measurable matter outcomes.
       </p>
-      <blockquote className="my-8 border-l-4 border-[#0e5599] pl-4 text-base italic text-white/90 sm:text-lg">
+      <blockquote className="my-8 border-l-4 border-[#2484C6] pl-4 text-base italic text-white/90 sm:text-lg">
         &quot;Technology has transformed the way we approach litigation and
         eDiscovery… I&apos;m excited to help clients leverage these advancements.&quot;
         <span className="mt-2 block text-sm not-italic text-white/80">
           — Marla Mohr, CEDS
         </span>
       </blockquote>
-      <blockquote className="mb-8 border-l-4 border-[#0e5599] pl-4 text-base italic text-white/90 sm:text-lg">
+      <blockquote className="mb-8 border-l-4 border-[#2484C6] pl-4 text-base italic text-white/90 sm:text-lg">
         &quot;Marla&apos;s unique perspective… make her an invaluable asset… We&apos;re
         confident her leadership will help us grow while staying true to our mission of
         exceptional service.&quot;
@@ -47,9 +47,9 @@ export default function InsightArticleMarlaMohrContent() {
 
       <h2
         className="mb-3 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
-        About Right Discovery
+        About AC Discovery
       </h2>
       <p className="mb-6 text-base leading-relaxed text-white/95 sm:text-lg">
         We deliver forensics, eDiscovery, managed review, staffing, analytics, cyber
@@ -79,7 +79,7 @@ export default function InsightArticleMarlaMohrContent() {
         <strong className="text-white/90">Topics:</strong> Marla Mohr, client
         engagement, eDiscovery, legal technology,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
       </p>
     </article>

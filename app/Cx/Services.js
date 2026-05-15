@@ -122,7 +122,7 @@ function AiDiscoveryIcon() {
 function ServiceCard({ Icon, title, description }) {
   return (
     <div className="rounded-2xl bg-white/6 backdrop-blur-md border border-white/10 px-6 py-7 md:px-7 md:py-8 flex flex-col items-center text-center">
-      <span className="w-12 h-12 rounded-lg bg-[#1d6fff] text-white flex items-center justify-center">
+      <span className="w-12 h-12 rounded-lg bg-[#2484C6] text-white flex items-center justify-center">
         <Icon />
       </span>
       <h3 className="text-white text-base md:text-lg font-medium mt-5">
@@ -133,7 +133,7 @@ function ServiceCard({ Icon, title, description }) {
       </p>
       <button
         type="button"
-        className="mt-7 text-white text-xs md:text-sm font-medium hover:text-[#1d6fff] transition-colors"
+        className="mt-7 text-white text-xs md:text-sm font-medium hover:text-[#2484C6] transition-colors"
       >
         Learn More
       </button>
@@ -158,7 +158,7 @@ const services = [
     Icon: AiDiscoveryIcon,
     title: "AI Discovery Services",
     description:
-      "Right Discovery's AI Discovery Services combine cutting-edge generative AI technology",
+      "AC Discovery's AI Discovery Services combine cutting-edge generative AI technology",
   },
 ];
 

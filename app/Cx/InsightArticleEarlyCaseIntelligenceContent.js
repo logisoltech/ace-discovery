@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleEarlyCaseIntelligenceContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -19,7 +19,7 @@ export default function InsightArticleEarlyCaseIntelligenceContent() {
       </p>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         and{" "}
         <a
@@ -35,14 +35,14 @@ export default function InsightArticleEarlyCaseIntelligenceContent() {
         Intelligence stack built to compress weeks of guesswork into days of
         defensible narrative grounding.
       </p>
-      <blockquote className="my-8 border-l-4 border-[#0e5599] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
+      <blockquote className="my-8 border-l-4 border-[#2484C6] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
         &quot;Insight ECI helps teams see the full story sooner—with higher fidelity—
         so you understand pivotal people, documents, and escalation paths while
         strategy windows stay open,&quot; says{" "}
         <Link href="/about" className={link}>
           Kevin M. Clark
         </Link>
-        , CEO of Right Discovery.
+        , CEO of AC Discovery.
       </blockquote>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         Advanced models auto-cluster issues, propose transparent keyword families,
@@ -70,12 +70,12 @@ export default function InsightArticleEarlyCaseIntelligenceContent() {
 
       <h2
         className="mt-12 mb-3 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
-        About Right Discovery
+        About AC Discovery
       </h2>
       <p className="mb-6 text-base leading-relaxed text-white/95 sm:text-lg">
-        Right Discovery delivers legal technology consulting and managed services—
+        AC Discovery delivers legal technology consulting and managed services—
         spanning forensics, managed review, specialized language teams, staffing,
         trial logistics, and AI-forward workflows. Explore{" "}
         <Link href="/" className={link}>
@@ -90,7 +90,7 @@ export default function InsightArticleEarlyCaseIntelligenceContent() {
 
       <h2
         className="mb-3 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         About eDiscovery AI
       </h2>

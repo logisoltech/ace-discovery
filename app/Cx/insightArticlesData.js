@@ -1,4 +1,4 @@
-export const INSIGHT_BRAND_BLUE = "#0e5599";
+export const INSIGHT_BRAND_BLUE = "#004972";
 
 export const DETAIL_SLUG_ESI_GENAI = "esi-genai-emerging-technologies-modern-litigation";
 
@@ -19,7 +19,7 @@ export const DETAIL_SLUG_BOLDER_2026 = "a-bigger-bolder-2026-is-underway";
 
 /** Sixth insights card — full article */
 export const DETAIL_SLUG_WEST_COAST_ROADSHOW =
-  "right-discovery-everlaw-bring-the-west-coast-roadshow-to-california";
+  "ac-discovery-everlaw-bring-the-west-coast-roadshow-to-california";
 
 /** Seventh insights card — full article */
 export const DETAIL_SLUG_ABA_AI_TURNING_POINT =
@@ -81,7 +81,7 @@ export const DETAIL_SLUG_TAR_TRILOGY =
   "the-tar-trilogy-three-cases-that-transformed-tar-in-ediscovery";
 
 export const DETAIL_SLUG_ISO_27001 =
-  "right-discovery-earns-iso-27001-certification-strengthening-information-security-across-all-services";
+  "ac-discovery-earns-iso-27001-certification-strengthening-information-security-across-all-services";
 
 export const DETAIL_SLUG_MASTERS_NYC =
   "bright-minds-big-ideas-and-a-bite-of-the-big-apple-the-masters-conference-hits-nyc";
@@ -127,11 +127,8 @@ export const DETAIL_SLUG_LEGALWEEK_126K =
   "the-law-firm-that-reviewed-126-000-documents-in-1-day-with-ai";
 
 /** Fortieth through fiftieth — full articles */
-export const DETAIL_SLUG_CASEGUILD_PARTNERSHIP =
-  "from-data-to-strategy-faster-right-discovery-caseguild-join-forces-to-transform-early-case-evalu";
-
 export const DETAIL_SLUG_EDISCOVERY_AI_PARTNERSHIP =
-  "revolutionizing-ai-powered-document-review-right-discovery-and-ediscovery-ai-announce-strategic-partnership";
+  "revolutionizing-ai-powered-document-review-ac-discovery-and-ediscovery-ai-announce-strategic-partnership";
 
 export const DETAIL_SLUG_MASTERS_DALLAS_DYNASTY =
   "the-legal-tech-dynasty-returns-to-dallas-masters-conference-march-5th";
@@ -143,13 +140,13 @@ export const DETAIL_SLUG_MASTERS_LA_FUTURE =
   "masters-conference-los-angeles-ai-legal-data-intelligence-and-the-future-of-ediscovery";
 
 export const DETAIL_SLUG_MARLA_MOHR_HIRE =
-  "right-discovery-welcomes-industry-veteran-marla-mohr-ceds-to-drive-client-growth-and-engagement";
+  "ac-discovery-welcomes-industry-veteran-marla-mohr-ceds-to-drive-client-growth-and-engagement";
 
 export const DETAIL_SLUG_CAL_ACTIVE_LEARNING =
   "streamlining-legal-data-review-with-continuous-active-learning";
 
 export const DETAIL_SLUG_ACEDS_AUSTIN =
-  "kevins-lone-star-adventure-right-discovery-heads-to-austin-for-aceds-ediscovery-day";
+  "kevins-lone-star-adventure-ac-discovery-heads-to-austin-for-aceds-ediscovery-day";
 
 export const DETAIL_SLUG_MASTERS_NAVIGATE_NEXT_WAVE =
   "navigate-the-next-wave-ai-cybersecurity-and-legal-tech-at-the-masters-conference";
@@ -159,12 +156,9 @@ export const DETAIL_SLUG_FORENSICS_CSI =
 
 /** Truncates at 96 chars in slugify — must match grid slug exactly */
 export const DETAIL_SLUG_EVERLAW_PARTNERSHIP_ENHANCED =
-  "right-discovery-enhances-legal-support-services-through-a-strengthened-and-strategic-partnership";
+  "ac-discovery-enhances-legal-support-services-through-a-strengthened-and-strategic-partnership";
 
 /** Fifty-first through sixtieth — full articles */
-export const DETAIL_SLUG_ICONECT_IR =
-  "right-discovery-selects-iconect-as-the-preferred-incident-response-review-software-provider";
-
 export const DETAIL_SLUG_RICH_ROBINSON_INTERVIEW =
   "get-the-inside-scoop-on-next-weeks-legal-power-skills-conference-an-exclusive-interview-with-ric";
 
@@ -232,7 +226,6 @@ const SLUGS_WITH_FULL_ARTICLE = new Set([
   DETAIL_SLUG_PRIVILEGE_CLE_DC,
   DETAIL_SLUG_AI_LITIGATION_CLE,
   DETAIL_SLUG_LEGALWEEK_126K,
-  DETAIL_SLUG_CASEGUILD_PARTNERSHIP,
   DETAIL_SLUG_EDISCOVERY_AI_PARTNERSHIP,
   DETAIL_SLUG_MASTERS_DALLAS_DYNASTY,
   DETAIL_SLUG_MODERN_COMMUNICATIONS_STORY,
@@ -243,7 +236,6 @@ const SLUGS_WITH_FULL_ARTICLE = new Set([
   DETAIL_SLUG_MASTERS_NAVIGATE_NEXT_WAVE,
   DETAIL_SLUG_FORENSICS_CSI,
   DETAIL_SLUG_EVERLAW_PARTNERSHIP_ENHANCED,
-  DETAIL_SLUG_ICONECT_IR,
   DETAIL_SLUG_RICH_ROBINSON_INTERVIEW,
   DETAIL_SLUG_PAPER_CHASE_PIXEL,
   DETAIL_SLUG_MASTERS_POWER_SKILLS_LAUNCH,
@@ -297,7 +289,7 @@ const rawArticles = [
   },
   {
     title:
-      "Right Discovery & Everlaw Bring the West Coast Roadshow to California",
+      "AC Discovery & Everlaw Bring the West Coast Roadshow to California",
     image:
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=960&q=80",
     alt: "Coastal city skyline reflected on water at dusk",
@@ -429,7 +421,7 @@ const rawArticles = [
   },
   {
     title:
-      "Right Discovery Earns ISO 27001 Certification, Strengthening Information Security Across All Services",
+      "AC Discovery Earns ISO 27001 Certification, Strengthening Information Security Across All Services",
     image:
       "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=960&q=80",
     alt: "Cybersecurity concept with digital padlock and circuit imagery",
@@ -444,8 +436,9 @@ const rawArticles = [
   },
   {
     title: "Beyond the Buzz: How Legal Teams Are Really Using AI",
-    image: "/caseguild-screen.png",
-    alt: "Legal workspace showing folders, documents, and evidence navigation",
+    image:
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=960&q=80",
+    alt: "Abstract visualization suggesting artificial intelligence in legal practice",
   },
   {
     title:
@@ -463,8 +456,9 @@ const rawArticles = [
   {
     title:
       "The Cost of Doing Nothing: Inside the Data Governance Roundtable at the Masters Conference Denver",
-    image: "/rocket-screen.png",
-    alt: "Data collections dashboard and hosting infrastructure interface",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=960&q=80",
+    alt: "Analytics and charts on a laptop illustrating data governance discussion",
   },
   {
     title:
@@ -525,13 +519,7 @@ const rawArticles = [
   },
   {
     title:
-      "From Data to Strategy - Faster: Right Discovery & CaseGuild Join Forces to Transform Early Case Evaluation",
-    image: "/caseguild-screen.png",
-    alt: "CaseGuild brand representing early case evaluation partnership",
-  },
-  {
-    title:
-      "Revolutionizing AI-Powered Document Review: Right Discovery and eDiscovery AI Announce Strategic Partnership",
+      "Revolutionizing AI-Powered Document Review: AC Discovery and eDiscovery AI Announce Strategic Partnership",
     image: "/ediscovery-screen.png",
     alt: "eDiscovery AI logo highlighting strategic partnership announcement",
   },
@@ -557,7 +545,7 @@ const rawArticles = [
   },
   {
     title:
-      "Right Discovery Welcomes Industry Veteran Marla Mohr, CEDS, to Drive Client Growth and Engagement",
+      "AC Discovery Welcomes Industry Veteran Marla Mohr, CEDS, to Drive Client Growth and Engagement",
     image: "/people.png",
     alt: "Professional portrait collage celebrating leadership hires",
   },
@@ -570,7 +558,7 @@ const rawArticles = [
   },
   {
     title:
-      "Kevin's Lone Star Adventure: Right Discovery Heads to Austin for ACEDS eDiscovery Day!",
+      "Kevin's Lone Star Adventure: AC Discovery Heads to Austin for ACEDS eDiscovery Day!",
     image: "/ceo.png",
     alt: "Kevin Clark celebrating ACEDS community programming in Austin",
   },
@@ -591,15 +579,9 @@ const rawArticles = [
   },
   {
     title:
-      "Right Discovery Enhances Legal Support Services Through a Strengthened and Strategic Partnership with Everlaw",
+      "AC Discovery Enhances Legal Support Services Through a Strengthened and Strategic Partnership with Everlaw",
     image: "/everlaw-screen.png",
     alt: "Everlaw logo marking expanded strategic partnership",
-  },
-  {
-    title:
-      "Right Discovery Selects iCONECT as the Preferred Incident Response Review Software Provider",
-    image: "/iconet-screen.png",
-    alt: "iCONECT incident response review workspace",
   },
   {
     title:
@@ -676,7 +658,7 @@ const rawArticles = [
   },
   {
     title:
-      "Join Right Discovery's CEO, Kevin Clark, at the Masters Conference San Diego",
+      "Join AC Discovery's CEO, Kevin Clark, at the Masters Conference San Diego",
     image:
       "https://images.unsplash.com/photo-1536599018102-9f803368640e?auto=format&fit=crop&w=960&q=80",
     alt: "San Diego skyline featuring waterfront towers under sunny skies",
@@ -689,7 +671,7 @@ const rawArticles = [
     alt: "Mobile phone illustrating forensic collection touchpoints in litigation",
   },
   {
-    title: "Right Discovery Welcomes Kevin M. Clark as New CEO",
+    title: "AC Discovery Welcomes Kevin M. Clark as New CEO",
     image: "/ceo.png",
     alt: "Kevin M. Clark headshot welcoming leadership announcement",
   },
@@ -707,8 +689,9 @@ const rawArticles = [
   {
     title:
       "Navigating the Digital Maze: The Benefits of eDiscovery Hosting Solutions",
-    image: "/rocket-screen.png",
-    alt: "Hosted collections dashboard illustrating centralized discovery infrastructure",
+    image:
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=960&q=80",
+    alt: "Digital network visualization suggesting hosted discovery and cloud workflows",
   },
   {
     title: "The Crucial Role of eDiscovery Forensics Collection",

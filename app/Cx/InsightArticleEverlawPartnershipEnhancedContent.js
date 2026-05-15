@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleEverlawPartnershipEnhancedContent() {
   return (
@@ -13,7 +13,7 @@ export default function InsightArticleEverlawPartnershipEnhancedContent() {
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         deepens its strategic collaboration with{" "}
         <a
@@ -28,19 +28,19 @@ export default function InsightArticleEverlawPartnershipEnhancedContent() {
         Everlaw&apos;s AI-forward discovery suite—including Everlaw AI Assistant
         workflows tuned for real-world validation standards.
       </p>
-      <blockquote className="mb-6 border-l-4 border-[#0e5599] pl-4 text-base italic text-white/90 sm:text-lg">
+      <blockquote className="mb-6 border-l-4 border-[#2484C6] pl-4 text-base italic text-white/90 sm:text-lg">
         &quot;Clients need sophisticated eDiscovery without sacrificing bespoke
         playbooks… Integrating Everlaw&apos;s capabilities lets us fuse automation with
         the judgment our teams are known for.&quot;
         <span className="mt-2 block text-sm not-italic text-white/80">
-          — Kevin M. Clark, CEO, Right Discovery
+          — Kevin M. Clark, CEO, AC Discovery
         </span>
       </blockquote>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         Joint engagements emphasize faster insight loops, intuitive exploration, and
         repeatable automation that survives privilege scrutiny.
       </p>
-      <blockquote className="mb-8 border-l-4 border-[#0e5599] pl-4 text-base italic text-white/90 sm:text-lg">
+      <blockquote className="mb-8 border-l-4 border-[#2484C6] pl-4 text-base italic text-white/90 sm:text-lg">
         &quot;Our partnership helps legal teams chart a straighter path to the
         truth.&quot;
         <span className="mt-2 block text-sm not-italic text-white/80">
@@ -50,9 +50,9 @@ export default function InsightArticleEverlawPartnershipEnhancedContent() {
 
       <h2
         className="mb-3 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
-        About Right Discovery
+        About AC Discovery
       </h2>
       <p className="mb-6 text-base leading-relaxed text-white/95 sm:text-lg">
         We serve law firms, corporate legal departments, and public agencies with digital
@@ -80,7 +80,7 @@ export default function InsightArticleEverlawPartnershipEnhancedContent() {
 
       <h2
         className="mb-3 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         About Everlaw
       </h2>
@@ -98,7 +98,7 @@ export default function InsightArticleEverlawPartnershipEnhancedContent() {
         <strong className="text-white/90">Topics:</strong> Everlaw, Everlaw AI
         Assistant, partnership, eDiscovery,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
       </p>
     </article>

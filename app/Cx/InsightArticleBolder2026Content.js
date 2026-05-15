@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleBolder2026Content() {
   return (
@@ -19,7 +19,7 @@ export default function InsightArticleBolder2026Content() {
         </a>{" "}
         are lining up to deliver fresh thinking, real-world insight, and
         powerful conversations around innovation, data, and collaboration. At
-        Right Discovery, we&apos;re gearing up for an unforgettable year of legal
+        AC Discovery, we&apos;re gearing up for an unforgettable year of legal
         innovation and connection, and we&apos;re excited to be part of the
         conversations shaping what&apos;s next.
       </p>
@@ -51,7 +51,7 @@ export default function InsightArticleBolder2026Content() {
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         Building on that momentum,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         is partnering with{" "}
         <a
@@ -135,7 +135,7 @@ export default function InsightArticleBolder2026Content() {
         It&apos;s about showing up, leaning in, and connecting with peers who are
         shaping the future of law.{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         proudly supports these events and the communities behind them, and we
         invite you to join us—whether in the room, online, or in
@@ -149,7 +149,7 @@ export default function InsightArticleBolder2026Content() {
         legalweek 2026, ABA TECHSHOW 2026, UF Law eDiscovery Conference,
         Relativity Fest 2026, mobile data discovery, collaboration app
         discovery, Teams Slack eDiscovery, privacy and AI governance, legal tech
-        trends 2026, global legal conferences, Right Discovery eDiscovery,
+        trends 2026, global legal conferences, AC Discovery eDiscovery,
         litigation technology events
       </p>
     </article>

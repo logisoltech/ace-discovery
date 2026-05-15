@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 function SectionHeading({ children }) {
   return (
     <h2
       className="mt-10 mb-3 rounded-lg px-4 py-3 text-lg font-bold leading-snug text-white sm:text-xl"
-      style={{ backgroundColor: "#0e5599" }}
+      style={{ backgroundColor: "#004972" }}
     >
       {children}
     </h2>
@@ -21,7 +21,7 @@ export default function InsightArticleMobileBeastContent() {
         Recap · Masters Conference New York
       </p>
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -112,7 +112,7 @@ export default function InsightArticleMobileBeastContent() {
 
       <p className="text-base leading-relaxed text-white/90 sm:text-lg">
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         proudly sponsors the Masters Conference and partners with{" "}
         <a href="https://www.cellebrite.com/" className={link} target="_blank" rel="noopener noreferrer">

@@ -30,7 +30,7 @@ export default function TechnologyRow({
   logoAlt,
   description,
   reverse = false,
-  cardClassName = "bg-[#0e5599]",
+  cardClassName = "bg-[#004972]",
   arrowLinkClassName = "text-white hover:text-white/75",
   logoClassName = "h-10 md:h-12 lg:h-14 w-auto object-contain",
 }) {

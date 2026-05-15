@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 function SectionHeading({ children }) {
   return (
     <h2
       className="mt-12 mb-4 rounded-lg px-4 py-3 text-lg font-bold leading-snug text-white sm:text-xl md:text-2xl"
-      style={{ backgroundColor: "#0e5599" }}
+      style={{ backgroundColor: "#004972" }}
     >
       {children}
     </h2>
@@ -18,7 +18,7 @@ export default function InsightArticleLifePreserversContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -50,7 +50,7 @@ export default function InsightArticleLifePreserversContent() {
 
       <SectionHeading>A night with a purpose</SectionHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        Right Discovery proudly sponsors{" "}
+        AC Discovery proudly sponsors{" "}
         <strong className="text-white">Hope for the Holidays 2025</strong>,
         Life Preservers&apos; signature fundraiser uniting philanthropic partners,
         musicians, multidisciplinary artists, survivor advocates, and policy allies

@@ -56,7 +56,7 @@ function OutcomeCard() {
 export default function Solutions() {
   return (
     <section className="bg-black px-4 sm:px-6 lg:px-10 pb-10 md:pb-16">
-      <div className="mx-auto max-w-7xl rounded-[28px] md:rounded-[36px] bg-[#0e5599] px-6 sm:px-8 md:px-12 lg:px-16 py-10 md:py-14 lg:py-16 overflow-hidden">
+      <div className="mx-auto max-w-7xl rounded-[28px] md:rounded-[36px] bg-[#004972] px-6 sm:px-8 md:px-12 lg:px-16 py-10 md:py-14 lg:py-16 overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start">
           <div className="md:col-span-8">
             <h2 className="text-white font-semibold leading-[1.05] tracking-tight text-3xl sm:text-4xl md:text-5xl lg:text-[56px]">

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleLegalOpsTrailblazersContent() {
   return (
@@ -10,7 +10,7 @@ export default function InsightArticleLegalOpsTrailblazersContent() {
         Recap · Masters Conference New York
       </p>
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -50,7 +50,7 @@ export default function InsightArticleLegalOpsTrailblazersContent() {
 
       <h2
         className="mb-4 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         Key takeaways
       </h2>
@@ -67,14 +67,14 @@ export default function InsightArticleLegalOpsTrailblazersContent() {
         </li>
       </ul>
 
-      <blockquote className="mb-10 border-l-4 border-[#0e5599] pl-4 text-lg italic text-white/90">
+      <blockquote className="mb-10 border-l-4 border-[#2484C6] pl-4 text-lg italic text-white/90">
         &quot;Where there&apos;s volatility, there&apos;s opportunity,&quot; reflected
         Taa Grays—capturing the room&apos;s blend of caution and ambition.
       </blockquote>
 
       <p className="text-base leading-relaxed text-white/90 sm:text-lg">
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         remains a proud sponsor of the Masters Conference—because honest operator dialogue
         like this keeps our consulting benches honest too.

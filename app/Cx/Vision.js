@@ -24,7 +24,7 @@ export default function Vision() {
 
   return (
     <section className="bg-black px-4 sm:px-6 lg:px-10 pb-10 md:pb-16">
-      <div className="mx-auto max-w-7xl rounded-[28px] md:rounded-[36px] bg-[#0e5599] px-6 sm:px-8 md:px-12 lg:px-16 py-10 md:py-14 lg:py-16 overflow-hidden">
+      <div className="mx-auto max-w-7xl rounded-[28px] md:rounded-[36px] bg-[#004972] px-6 sm:px-8 md:px-12 lg:px-16 py-10 md:py-14 lg:py-16 overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start">
           <div className="md:col-span-8">
             <h2 className="text-white font-semibold leading-[1.05] tracking-tight text-3xl sm:text-4xl md:text-5xl lg:text-[56px]">
@@ -82,7 +82,7 @@ export default function Vision() {
                 className="w-full h-auto object-cover"
               />
               {/* <span className="absolute inset-0 flex items-center justify-center">
-                <span className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-white/85 group-hover:bg-white text-[#0e5599] flex items-center justify-center transition-colors shadow-lg">
+                <span className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-white/85 group-hover:bg-white text-[#004972] flex items-center justify-center transition-colors shadow-lg">
                   <PlayIcon />
                 </span>
               </span> */}

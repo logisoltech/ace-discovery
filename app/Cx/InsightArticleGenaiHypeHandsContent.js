@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleGenaiHypeHandsContent() {
   return (
@@ -10,7 +10,7 @@ export default function InsightArticleGenaiHypeHandsContent() {
         Recap · Masters Conference New York
       </p>
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -44,7 +44,7 @@ export default function InsightArticleGenaiHypeHandsContent() {
 
       <h2
         className="mb-4 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         Key takeaways
       </h2>
@@ -60,7 +60,7 @@ export default function InsightArticleGenaiHypeHandsContent() {
         <strong className="text-white/90">Topics:</strong> generative AI, legal tech,
         eDiscovery, Masters Conference NYC, Everlaw,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
         , litigation workflows, responsible AI adoption
       </p>

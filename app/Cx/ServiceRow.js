@@ -42,7 +42,7 @@ export default function ServiceRow({
       <div className="relative mx-auto max-w-7xl px-6 sm:px-8 md:px-12 lg:px-16 py-10 md:py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12 lg:gap-16 items-start">
           <div className="md:col-span-4">
-            <span className="inline-flex w-14 h-14 md:w-16 md:h-16 rounded-xl bg-[#1d6fff]/10 text-[#1d6fff] items-center justify-center">
+            <span className="inline-flex w-14 h-14 md:w-16 md:h-16 rounded-xl bg-[#2484C6]/10 text-[#2484C6] items-center justify-center">
               <Icon />
             </span>
             <h2 className="text-white font-bold leading-[1.05] tracking-tight text-3xl sm:text-4xl md:text-[40px] lg:text-5xl mt-6 md:mt-8">

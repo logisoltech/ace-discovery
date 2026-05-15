@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 function SectionHeading({ children }) {
   return (
     <h2
       className="mt-12 mb-4 rounded-lg px-4 py-3 text-lg font-bold leading-snug text-white sm:text-xl md:text-2xl"
-      style={{ backgroundColor: "#0e5599" }}
+      style={{ backgroundColor: "#004972" }}
     >
       {children}
     </h2>
@@ -34,14 +34,14 @@ export default function InsightArticleDataOverloadContent() {
         </Link>
         , CEO of leading ediscovery managed services provider{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
         . &quot;Everybody&apos;s testing it, trying to figure out how it can be
         used in their practice, whether it&apos;s a law firm or
         corporation.&quot;
       </p>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        Right Discovery assists clients with the full range of ediscovery
+        AC Discovery assists clients with the full range of ediscovery
         services, from collection and processing, all the way to trial. Its tech
         consultants help with management review, depositions, and trial
         preparation. Partnering with{" "}
@@ -53,7 +53,7 @@ export default function InsightArticleDataOverloadContent() {
         >
           Everlaw
         </a>{" "}
-        helps Right Discovery&apos;s consultants solve the three biggest
+        helps AC Discovery&apos;s consultants solve the three biggest
         headaches in modern litigation: technological risk, exploding data
         volumes, and operational efficiency.
       </p>
@@ -126,7 +126,7 @@ export default function InsightArticleDataOverloadContent() {
         pace.
       </p>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        Right Discovery helps clients manage massive quantities of data and
+        AC Discovery helps clients manage massive quantities of data and
         focus on the right slices of information. Whatever combination of
         emails, Microsoft Office documents, social media, and videos a case
         involves, Everlaw&apos;s powerful ECA database, filters, and search
@@ -141,7 +141,7 @@ export default function InsightArticleDataOverloadContent() {
 
       <SectionHeading>Partnering to Build Better Efficiencies</SectionHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        Clark says that Right Discovery working with the Everlaw team through
+        Clark says that AC Discovery working with the Everlaw team through
         the{" "}
         <a
           href="https://www.everlaw.com/partners/"
@@ -162,7 +162,7 @@ export default function InsightArticleDataOverloadContent() {
         needs.&quot;
       </p>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        And the program helps not only the client, but Right Discovery as well,
+        And the program helps not only the client, but AC Discovery as well,
         he adds. &quot;We&apos;ve been able to identify potential clients and
         bring Everlaw to them to provide services when they don&apos;t have the
         resources they need.&quot;
@@ -178,9 +178,9 @@ export default function InsightArticleDataOverloadContent() {
 
       <h2
         className="mt-12 mb-4 rounded-lg px-4 py-3 text-sm font-bold uppercase leading-snug tracking-wide text-white sm:text-base md:text-lg"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
-        Get the best of both worlds with Right Discovery — Everlaw, now powered
+        Get the best of both worlds with AC Discovery — Everlaw, now powered
         by Everlaw AI
       </h2>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -198,7 +198,7 @@ export default function InsightArticleDataOverloadContent() {
       <p className="mt-12 text-sm leading-relaxed text-white/75">
         <strong className="text-white/90">Topics:</strong> GenAI, Litigation
         Support, Document Review, Workflows, Legal Technology, Everlaw, Everlaw
-        AI, Data, Right Discovery
+        AI, Data, AC Discovery
       </p>
     </article>
   );

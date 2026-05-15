@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 function SectionHeading({ children }) {
   return (
     <h2
       className="mt-12 mb-4 rounded-lg px-4 py-3 text-lg font-bold leading-snug text-white sm:text-xl md:text-2xl"
-      style={{ backgroundColor: "#0e5599" }}
+      style={{ backgroundColor: "#004972" }}
     >
       {children}
     </h2>
@@ -26,7 +26,7 @@ export default function InsightArticleMillionRecordContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <SectionHeading>
@@ -46,7 +46,7 @@ export default function InsightArticleMillionRecordContent() {
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         At{" "}
         <Link href="/" className={`${link} font-bold`}>
-          Right Discovery
+          AC Discovery
         </Link>
         , we believe large-scale review doesn&apos;t need more people; it needs
         better intelligence; the right people with the right tools and
@@ -87,7 +87,7 @@ export default function InsightArticleMillionRecordContent() {
         defensibility gets shaky.
       </p>
 
-      <SectionHeading>Right Discovery flips that model.</SectionHeading>
+      <SectionHeading>AC Discovery flips that model.</SectionHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         Instead of deploying 200+ reviewers, we run million-record matters with
         a small, focused team of experts supported by a workflow designed to
@@ -122,7 +122,7 @@ export default function InsightArticleMillionRecordContent() {
         it becomes a statistical liability.
       </p>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        Right Discovery replaces chaos with right-sized expert teams aligned
+        AC Discovery replaces chaos with right-sized expert teams aligned
         on:
       </p>
       <ul className="mb-4 list-disc space-y-2 pl-6 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -141,7 +141,7 @@ export default function InsightArticleMillionRecordContent() {
         counsel challenges your review process, &quot;trust the algorithm&quot;
         isn&apos;t good enough. Legal teams need AI-driven decisions that are
         transparent, traceable, and defensible; with clear reasoning and
-        audit-ready documentation behind every major call. Right Discovery
+        audit-ready documentation behind every major call. AC Discovery
         prioritizes explainability and defensibility, so your team can move
         faster without taking on unnecessary risk.
       </p>
@@ -159,7 +159,7 @@ export default function InsightArticleMillionRecordContent() {
         <li>Surprise invoices</li>
       </ul>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        Right Discovery replaces that with true per-record economics, so legal
+        AC Discovery replaces that with true per-record economics, so legal
         departments can:
       </p>
       <ul className="mb-4 list-disc space-y-2 pl-6 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -181,7 +181,7 @@ export default function InsightArticleMillionRecordContent() {
 
       <SubHeading>Stage 1: Strategic Data Reduction</SubHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        Instead of blunt filters, Right Discovery starts with defensible,
+        Instead of blunt filters, AC Discovery starts with defensible,
         data-driven reduction; identifying what can be confidently set aside,
         what needs faster escalation, and what belongs in priority lanes. The
         goal is simple: shrink the review universe early, before humans spend
@@ -192,7 +192,7 @@ export default function InsightArticleMillionRecordContent() {
 
       <SubHeading>Stage 2: Right-Sized Expert Teams</SubHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        Small doesn&apos;t mean limited — it means aligned. Right Discovery
+        Small doesn&apos;t mean limited — it means aligned. AC Discovery
         relies on a compact, high-performing team of specialists built around
         the case&apos;s actual demands (legal issues, industry nuance,
         complexity), not just record count. Fewer handoffs and fewer layers
@@ -203,7 +203,7 @@ export default function InsightArticleMillionRecordContent() {
       <SubHeading>Stage 3: Smart Sequencing and Prioritization</SubHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         Traditional review treats every record like it has equal value. It
-        doesn&apos;t. Right Discovery sequences review in strategic waves:
+        doesn&apos;t. AC Discovery sequences review in strategic waves:
       </p>
       <ul className="mb-4 list-disc space-y-2 pl-6 text-base leading-relaxed text-white/95 sm:text-lg">
         <li>High-signal content first</li>
@@ -217,7 +217,7 @@ export default function InsightArticleMillionRecordContent() {
 
       <SubHeading>Stage 4: Explainable AI Support</SubHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        AI doesn&apos;t replace judgment, it supports it. Right Discovery
+        AI doesn&apos;t replace judgment, it supports it. AC Discovery
         integrates AI in a way legal teams can trust and decisions are
         reviewable, explainable, and grounded in clear rationale, with
         repeatable processes and documentation built in. Efficiency matters, but
@@ -226,7 +226,7 @@ export default function InsightArticleMillionRecordContent() {
 
       <SubHeading>Stage 5: Court-Ready Validation</SubHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        From day one, Right Discovery assumes your process may be challenged. So
+        From day one, AC Discovery assumes your process may be challenged. So
         every:
       </p>
       <ul className="mb-4 list-disc space-y-2 pl-6 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -240,7 +240,7 @@ export default function InsightArticleMillionRecordContent() {
       </p>
 
       <SectionHeading>
-        Why This Matters to Right Discovery Clients
+        Why This Matters to AC Discovery Clients
       </SectionHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         We don&apos;t believe in throwing tools at problems.
@@ -249,7 +249,7 @@ export default function InsightArticleMillionRecordContent() {
         We believe in engineering smarter discovery.
       </p>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
-        That&apos;s why Right Discovery delivers something most vendors
+        That&apos;s why AC Discovery delivers something most vendors
         can&apos;t:
       </p>
       <p className="mb-4 text-base font-semibold text-white sm:text-lg">
@@ -273,7 +273,7 @@ export default function InsightArticleMillionRecordContent() {
       </SectionHeading>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         If your current approach relies on headcount to keep up, it&apos;s time
-        to rethink the architecture. Right Discovery brings a defensible,
+        to rethink the architecture. AC Discovery brings a defensible,
         scalable review model that keeps budgets predictable and decisions easy
         to stand behind.
       </p>

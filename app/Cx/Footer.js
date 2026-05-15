@@ -22,11 +22,8 @@ const forensics = [
 
 const technology = [
   "RelativityOne",
-  "CaseGuild",
   "Everlaw",
-  "RocketCloud",
   "eDiscovery AI",
-  "iCONECT",
 ];
 
 const info = [
@@ -130,7 +127,7 @@ function SocialIcons() {
           key={label}
           href="#"
           aria-label={label}
-          className="w-9 h-9 rounded-full bg-white text-[#0e5599] flex items-center justify-center hover:bg-white/90 transition-colors"
+          className="w-9 h-9 rounded-full bg-white text-[#004972] flex items-center justify-center hover:bg-white/90 transition-colors"
         >
           <Icon />
         </a>
@@ -141,7 +138,7 @@ function SocialIcons() {
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-[#0e5599] to-[#0a4078] px-6 sm:px-10 md:px-14 lg:px-20 pt-12 md:pt-16 pb-8">
+    <footer className="bg-gradient-to-b from-[#004972] to-[#002a42] px-6 sm:px-10 md:px-14 lg:px-20 pt-12 md:pt-16 pb-8">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-8 md:gap-10">
           <div className="md:col-span-3">

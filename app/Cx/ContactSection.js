@@ -2,12 +2,12 @@
 
 function FormField({ id, label, type = "text", required = false, textarea = false }) {
   const inputClasses =
-    "w-full bg-white/5 border border-white/15 rounded-md px-4 py-2.5 text-white text-sm placeholder:text-white/30 focus:outline-none focus:border-[#1d6fff] focus:bg-white/10 transition-colors";
+    "w-full bg-white/5 border border-white/15 rounded-md px-4 py-2.5 text-white text-sm placeholder:text-white/30 focus:outline-none focus:border-[#2484C6] focus:bg-white/10 transition-colors";
   return (
     <div className="flex flex-col">
       <label htmlFor={id} className="text-white text-sm font-medium mb-2">
         {label}
-        {required && <span className="text-[#1d6fff]">*</span>}
+        {required && <span className="text-[#2484C6]">*</span>}
       </label>
       {textarea ? (
         <textarea
@@ -49,13 +49,13 @@ function ContactInfo() {
       <div>
         <a
           href="tel:+14695923100"
-          className="block text-white text-base md:text-lg font-medium hover:text-[#1d6fff] transition-colors"
+          className="block text-white text-base md:text-lg font-medium hover:text-[#2484C6] transition-colors"
         >
           (469) 592-3100
         </a>
         <a
           href="mailto:support@acediscovery.com"
-          className="block text-white text-base md:text-lg font-medium hover:text-[#1d6fff] transition-colors mt-1"
+          className="block text-white text-base md:text-lg font-medium hover:text-[#2484C6] transition-colors mt-1"
         >
           support@acediscovery.com
         </a>
@@ -72,7 +72,7 @@ function ContactInfo() {
       <a
         href="#"
         aria-label="LinkedIn"
-        className="inline-flex w-10 h-10 rounded-full bg-[#1d6fff] hover:bg-[#0d5fef] text-white items-center justify-center transition-colors"
+        className="inline-flex w-10 h-10 rounded-full bg-[#095786] hover:bg-[#2484C6] text-white items-center justify-center transition-colors"
       >
         <LinkedInIcon />
       </a>
@@ -85,7 +85,7 @@ export default function ContactSection() {
     <section className="relative bg-black overflow-hidden">
       <div className="relative mx-auto max-w-6xl px-6 sm:px-8 lg:px-12 pt-32 sm:pt-36 md:pt-44 lg:pt-48 pb-16 md:pb-24">
         <h1 className="text-white font-extrabold text-center uppercase tracking-tight leading-none text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-          Let&apos;s <span className="text-[#1d6fff]">Connect</span>
+          Let&apos;s <span className="text-[#2484C6]">Connect</span>
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16 lg:gap-20 mt-12 md:mt-16">
@@ -106,7 +106,7 @@ export default function ContactSection() {
             <div className="sm:col-span-2 mt-2">
               <button
                 type="submit"
-                className="bg-[#1d6fff] hover:bg-[#0d5fef] transition-colors text-white text-sm font-semibold tracking-wide uppercase px-10 py-3 rounded-md shadow-lg shadow-blue-900/30"
+                className="bg-[#095786] hover:bg-[#2484C6] transition-colors text-white text-sm font-semibold tracking-wide uppercase px-10 py-3 rounded-md shadow-lg shadow-blue-900/30"
               >
                 Submit
               </button>

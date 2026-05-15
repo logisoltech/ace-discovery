@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleDataTreeHolidayContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -16,7 +16,7 @@ export default function InsightArticleDataTreeHolidayContent() {
         odd hours. Productions land with last-minute tweaks. PSTs swell. Export
         jobs queue like sleigh bells you cannot mute. Someone still has to marshal
         the metadata, tame the spreadsheets, and keep privilege calls defensible.
-        Enter the quieter holiday miracle: Right Discovery teammates who steady the
+        Enter the quieter holiday miracle: AC Discovery teammates who steady the
         wire long after courthouse doors lock.
       </p>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -26,7 +26,7 @@ export default function InsightArticleDataTreeHolidayContent() {
         <Link href="/about" className={link}>
           Kevin M. Clark
         </Link>
-        , Head and CEO of the Right Discovery eDiscovery Workshop, rallies the crew
+        , Head and CEO of the AC Discovery eDiscovery Workshop, rallies the crew
         so productions, forensic collections, and managed review timelines hold
         even when courthouse doors lock early for the holidays.
       </p>
@@ -62,7 +62,7 @@ export default function InsightArticleDataTreeHolidayContent() {
       <p className="text-base font-bold leading-relaxed text-white sm:text-lg">
         Merry Christmas and Happy Holidays from{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         — where we sleigh the details so you can focus on what matters most!
       </p>
@@ -72,7 +72,7 @@ export default function InsightArticleDataTreeHolidayContent() {
         forensic collection, managed review, legal technology support, holiday legal
         operations, data processing workflows, project management in litigation,
         chain-of-custody best practices, document review teams, defensible data
-        handling, legal industry year-end support, Right Discovery services
+        handling, legal industry year-end support, AC Discovery services
       </p>
     </article>
   );

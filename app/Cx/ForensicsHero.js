@@ -67,7 +67,7 @@ function ScalesIcon() {
 function IconCircle({ Icon, label }) {
   return (
     <div className="flex flex-col items-center gap-3">
-      <span className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-black border border-white/15 text-[#1d6fff] flex items-center justify-center shadow-lg shadow-black/40">
+      <span className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-black border border-white/15 text-[#2484C6] flex items-center justify-center shadow-lg shadow-black/40">
         <Icon />
       </span>
       <p className="text-white/75 text-[11px] sm:text-xs font-medium text-center leading-tight max-w-[100px]">
@@ -79,7 +79,7 @@ function IconCircle({ Icon, label }) {
 
 export default function ForensicsHero() {
   return (
-    <section className="relative bg-[#0e5599] min-h-screen overflow-hidden">
+    <section className="relative bg-[#004972] min-h-screen overflow-hidden">
       <div
         aria-hidden="true"
         className="absolute inset-0 opacity-40 pointer-events-none"

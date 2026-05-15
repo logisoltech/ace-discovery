@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleEdiscoveryAiPartnershipContent() {
   return (
@@ -13,7 +13,7 @@ export default function InsightArticleEdiscoveryAiPartnershipContent() {
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         and{" "}
         <a
@@ -35,7 +35,7 @@ export default function InsightArticleEdiscoveryAiPartnershipContent() {
 
       <h2
         className="mb-4 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         Enhanced efficiency and accuracy
       </h2>
@@ -43,18 +43,18 @@ export default function InsightArticleEdiscoveryAiPartnershipContent() {
         AI-first classification layers accelerate first-pass decisions without relaxing
         validation habits counsel already owe clients and courts.
       </p>
-      <blockquote className="mb-8 border-l-4 border-[#0e5599] pl-4 text-base italic text-white/90 sm:text-lg">
+      <blockquote className="mb-8 border-l-4 border-[#2484C6] pl-4 text-base italic text-white/90 sm:text-lg">
         &quot;Traditional document review methods are not enough to keep pace with the
         growing volume and complexity of legal and business data… This is the future of
         document review, and we&apos;re proud to lead the way.&quot;
         <span className="mt-2 block text-sm not-italic text-white/80">
-          — Kevin M. Clark, CEO, Right Discovery
+          — Kevin M. Clark, CEO, AC Discovery
         </span>
       </blockquote>
 
       <h2
         className="mb-4 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         Global reach and multi-content coverage
       </h2>
@@ -62,15 +62,15 @@ export default function InsightArticleEdiscoveryAiPartnershipContent() {
         Multilingual NLP and multimedia parsing keep sprawling investigations in a
         single QC narrative rather than siloed boutique tools.
       </p>
-      <blockquote className="mb-6 border-l-4 border-[#0e5599] pl-4 text-base italic text-white/90 sm:text-lg">
+      <blockquote className="mb-6 border-l-4 border-[#2484C6] pl-4 text-base italic text-white/90 sm:text-lg">
         &quot;We recognize the critical need for fast and efficient document review,
         especially for clients with complex global needs…&quot;
         <span className="mt-2 block text-sm not-italic text-white/80">
-          — Kevin M. Clark, CEO, Right Discovery
+          — Kevin M. Clark, CEO, AC Discovery
         </span>
       </blockquote>
-      <blockquote className="mb-8 border-l-4 border-[#0e5599] pl-4 text-base italic text-white/90 sm:text-lg">
-        &quot;Partnering with Right Discovery allows us to maximize the potential of our
+      <blockquote className="mb-8 border-l-4 border-[#2484C6] pl-4 text-base italic text-white/90 sm:text-lg">
+        &quot;Partnering with AC Discovery allows us to maximize the potential of our
         AI-powered solutions… Together, we are raising the bar on what&apos;s possible in
         legal discovery.&quot;
         <span className="mt-2 block text-sm not-italic text-white/80">
@@ -80,12 +80,12 @@ export default function InsightArticleEdiscoveryAiPartnershipContent() {
 
       <h2
         className="mb-4 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         The path forward
       </h2>
       <p className="mb-10 text-base leading-relaxed text-white/95 sm:text-lg">
-        Integrations will keep tightening so clients inherit Right Discovery&apos;s
+        Integrations will keep tightening so clients inherit AC Discovery&apos;s
         playbooks inside eDiscovery AI&apos;s automation fabric—one remediation loop
         instead of dueling vendors.
       </p>
@@ -94,7 +94,7 @@ export default function InsightArticleEdiscoveryAiPartnershipContent() {
         <strong className="text-white/90">Topics:</strong> eDiscovery AI, generative
         review, partnerships, multimedia discovery,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
       </p>
     </article>

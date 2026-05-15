@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleMastersDcDevicesContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -28,7 +28,7 @@ export default function InsightArticleMastersDcDevicesContent() {
       <p className="mb-6 text-base leading-relaxed text-white/95 sm:text-lg">
         <strong className="text-white">Kevin Clark</strong>, CEO of{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
         , and <strong className="text-white">Jason Voss</strong>, Owner &amp; CTO of{" "}
         <a
@@ -45,7 +45,7 @@ export default function InsightArticleMastersDcDevicesContent() {
 
       <h2
         className="mb-3 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         Panelists
       </h2>
@@ -55,7 +55,7 @@ export default function InsightArticleMastersDcDevicesContent() {
         <li>Alicia Clausen, Crowell &amp; Moring</li>
         <li>Nick Eglevsky, Blank Rome</li>
         <li>Jason Voss, Converse Data</li>
-        <li>Kevin M. Clark, Right Discovery</li>
+        <li>Kevin M. Clark, AC Discovery</li>
       </ul>
 
       <div className="mb-8 rounded-lg border border-white/10 bg-white/5 p-5 text-sm text-white/90 sm:text-base">
@@ -86,7 +86,7 @@ export default function InsightArticleMastersDcDevicesContent() {
 
       <p className="mb-4 text-sm text-white/80">
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         and Converse Data proudly sponsor this Masters program.
       </p>
@@ -106,7 +106,7 @@ export default function InsightArticleMastersDcDevicesContent() {
         <strong className="text-white/90">Topics:</strong> Masters DC, mobile data,
         Slack, investigations,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
         , Converse Data
       </p>

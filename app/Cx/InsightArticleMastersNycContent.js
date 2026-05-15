@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleMastersNycContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
-      <p className="mb-6 text-lg italic text-white/90">Right Discovery Staff Writer</p>
+      <p className="mb-6 text-lg italic text-white/90">AC Discovery Staff Writer</p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         Skyline light poured across Morgan Lewis&apos;s 101 Park Avenue perch while
@@ -32,7 +32,7 @@ export default function InsightArticleMastersNycContent() {
       </p>
       <p className="mb-8 text-base leading-relaxed text-white/95 sm:text-lg">
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         again sponsored programming that threads empathy through innovation. Follow
         the Masters calendar for upcoming stops—Philadelphia, Seattle, Atlanta—and
@@ -63,7 +63,7 @@ export default function InsightArticleMastersNycContent() {
         legal tech, generative AI, deepfakes, social media discovery, Legal Ops,
         change management, innovation,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
       </p>
     </article>

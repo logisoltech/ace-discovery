@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleMastersLaFutureContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-8 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -36,17 +36,9 @@ export default function InsightArticleMastersLaFutureContent() {
         <strong className="text-white">Enhancing Case Narratives with Generative AI</strong>{" "}
         (Relativity-sponsored) features{" "}
         <strong className="text-white">Cristin Traylor</strong> and{" "}
-        <strong className="text-white">Danny Thankachan</strong> (
-        <a
-          href="https://www.caseguild.com/"
-          className={link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          CaseGuild
-        </a>
-        ) on summaries, deposition prep, and chronologies that read like crafted
-        advocacy—not boilerplate.
+        <strong className="text-white">Danny Thankachan</strong> on summaries,
+        deposition prep, and chronologies that read like crafted advocacy—not
+        boilerplate.
       </p>
       <p className="mb-8 text-base leading-relaxed text-white/95 sm:text-lg">
         <strong className="text-white">Microsoft&apos;s Town Hall</strong> closes the
@@ -86,7 +78,7 @@ export default function InsightArticleMastersLaFutureContent() {
         <strong className="text-white/90">Topics:</strong> Masters LA, legal data
         intelligence, Microsoft Purview, Relativity,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
       </p>
     </article>

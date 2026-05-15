@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 function SectionHeading({ children }) {
   return (
     <h2
       className="mt-12 mb-4 rounded-lg px-4 py-3 text-lg font-bold leading-snug text-white sm:text-xl md:text-2xl"
-      style={{ backgroundColor: "#0e5599" }}
+      style={{ backgroundColor: "#004972" }}
     >
       {children}
     </h2>
@@ -245,7 +245,7 @@ export default function InsightArticleAbaAiTurningPointContent() {
         <Link href="/contact" className={link}>
           connect
         </Link>{" "}
-        so we can compare notes on how Right Discovery aligns managed services with
+        so we can compare notes on how AC Discovery aligns managed services with
         the guardrails courts and clients increasingly expect.
       </p>
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleTexasShowdownContent() {
   return (
@@ -10,13 +10,13 @@ export default function InsightArticleTexasShowdownContent() {
         Calling all legal pros — come on down!
       </p>
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         On <strong className="text-white">Wednesday, September 10, 2025</strong>,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         and{" "}
         <a href="https://www.everlaw.com/" className={link} target="_blank" rel="noopener noreferrer">

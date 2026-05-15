@@ -1,19 +1,19 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleLegalGeekChicagoContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         The{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>{" "}
         team heads to{" "}
         <a
@@ -69,10 +69,10 @@ export default function InsightArticleLegalGeekChicagoContent() {
         copilots, with CLE tracks on ethics, cultural change, and well-being.
       </p>
 
-      <blockquote className="my-8 border-l-4 border-[#0e5599] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
+      <blockquote className="my-8 border-l-4 border-[#2484C6] pl-4 text-base italic leading-relaxed text-white/90 sm:text-lg">
         &quot;What excites me most is connecting with people who aren&apos;t just
         talking about innovation—they&apos;re implementing it… shaping how we approach
-        legal operations and AI at Right Discovery and beyond.&quot;
+        legal operations and AI at AC Discovery and beyond.&quot;
         <span className="mt-2 block text-sm not-italic text-white/80">
           — Marla Mohr, Director of Client Engagement &amp; Growth
         </span>
@@ -107,7 +107,7 @@ export default function InsightArticleLegalGeekChicagoContent() {
         <strong className="text-white/90">Topics:</strong> legal AI, generative AI,
         innovation, CLE, Chicago,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
         , legal operations
       </p>

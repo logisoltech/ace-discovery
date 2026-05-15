@@ -103,7 +103,7 @@ export default function Hero() {
   return (
     <section className="relative w-full min-h-screen overflow-hidden bg-[#0d1117]">
       <Image
-        src="/hero-bg.png"
+        src="/banner.png"
         alt=""
         fill
         priority
@@ -122,7 +122,7 @@ export default function Hero() {
           </h1>
 
           <div className="mt-6 flex items-start gap-4 max-w-md">
-            <span className="block w-[3px] self-stretch bg-[#1d6fff] rounded-full" />
+            <span className="block w-[3px] self-stretch bg-[#2484C6] rounded-full" />
             <p className="text-white/75 text-sm sm:text-[15px] leading-relaxed">
               Technology consultants, finding the right solutions for all your
               litigation needs
@@ -132,7 +132,7 @@ export default function Hero() {
           <div className="mt-8 flex items-center gap-6">
             <button
               type="button"
-              className="bg-[#1d6fff] hover:bg-[#0d5fef] transition-colors text-white text-sm font-medium px-6 py-2.5 rounded-md shadow-lg shadow-blue-900/30"
+              className="bg-[#095786] hover:bg-[#2484C6] transition-colors text-white text-sm font-medium px-6 py-2.5 rounded-md shadow-lg shadow-blue-900/30"
             >
               Learn More
             </button>

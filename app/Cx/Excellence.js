@@ -27,7 +27,7 @@ function StepDots() {
     <div className="flex items-center gap-4 mt-8">
       <button
         type="button"
-        className="w-14 h-14 rounded-full bg-[#1d6fff] text-white text-base font-semibold flex items-center justify-center"
+        className="w-14 h-14 rounded-full bg-[#095786] text-white text-base font-semibold flex items-center justify-center"
       >
         01
       </button>
@@ -50,7 +50,7 @@ function StepDots() {
 function PaginationDots() {
   return (
     <div className="grid grid-cols-2 gap-3">
-      <span className="w-8 h-8 rounded-full bg-[#1d6fff]" />
+      <span className="w-8 h-8 rounded-full bg-[#2484C6]" />
       <span className="w-8 h-8 rounded-full bg-white/65" />
       <span className="w-8 h-8 rounded-full bg-transparent" />
       <span className="w-8 h-8 rounded-full bg-white/25" />
@@ -60,7 +60,7 @@ function PaginationDots() {
 
 function KnowledgeCard() {
   return (
-    <div className="rounded-2xl bg-[#1d6fff] p-6 md:p-7 text-white">
+    <div className="rounded-2xl bg-[#004972] p-6 md:p-7 text-white">
       <h3 className="text-lg md:text-xl font-semibold">Our Knowledge</h3>
       <p className="text-white/85 text-xs md:text-sm leading-relaxed mt-3">
         Our legal tech experts have the knowledge within the litigation support
@@ -120,7 +120,7 @@ export default function Excellence() {
               </p>
               <button
                 type="button"
-                className="mt-4 text-white text-sm font-medium hover:text-[#1d6fff] transition-colors"
+                className="mt-4 text-white text-sm font-medium hover:text-[#2484C6] transition-colors"
               >
                 Learn More
               </button>

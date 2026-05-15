@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 function SectionHeading({ children }) {
   return (
     <h2
       className="mt-10 mb-3 rounded-lg px-4 py-3 text-lg font-bold leading-snug text-white sm:text-xl"
-      style={{ backgroundColor: "#0e5599" }}
+      style={{ backgroundColor: "#004972" }}
     >
       {children}
     </h2>
@@ -18,7 +18,7 @@ export default function InsightArticleTarTrilogyContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
       <p className="mb-1 text-sm text-white/70">August 1, 2025</p>
-      <p className="mb-6 text-lg italic text-white/90">Lucy Robinson · Right Discovery Staff Writer</p>
+      <p className="mb-6 text-lg italic text-white/90">Lucy Robinson · AC Discovery Staff Writer</p>
 
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         Hon. <strong className="text-white">Andrew J. Peck</strong>, retired SDNY
@@ -77,7 +77,7 @@ export default function InsightArticleTarTrilogyContent() {
         <strong className="text-white/90">Topics:</strong> predictive coding, TAR, CAL,
         Da Silva Moore, Rio Tinto, Hyles, Judge Peck,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
         , eDiscovery precedent
       </p>

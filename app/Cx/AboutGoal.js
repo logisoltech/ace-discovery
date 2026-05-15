@@ -1,6 +1,6 @@
 export default function AboutGoal() {
   return (
-    <section className="relative bg-[#0e5599] overflow-hidden">
+    <section className="relative bg-[#004972] overflow-hidden">
       <svg
         aria-hidden="true"
         className="absolute -left-10 top-0 h-full w-[40%] text-white/6 pointer-events-none hidden sm:block"

@@ -11,7 +11,6 @@ import InsightArticleBeyondBenchAiContent from "../../Cx/InsightArticleBeyondBen
 import InsightArticleBeyondBuzzAiContent from "../../Cx/InsightArticleBeyondBuzzAiContent";
 import InsightArticleBolder2026Content from "../../Cx/InsightArticleBolder2026Content";
 import InsightArticleCalActiveLearningContent from "../../Cx/InsightArticleCalActiveLearningContent";
-import InsightArticleCaseguildPartnershipContent from "../../Cx/InsightArticleCaseguildPartnershipContent";
 import InsightArticleCovidOngoingContent from "../../Cx/InsightArticleCovidOngoingContent";
 import InsightArticleDataGovernanceDenverContent from "../../Cx/InsightArticleDataGovernanceDenverContent";
 import InsightArticleDataOverloadContent from "../../Cx/InsightArticleDataOverloadContent";
@@ -32,7 +31,6 @@ import InsightArticleLegalGeekChicagoContent from "../../Cx/InsightArticleLegalG
 import InsightArticleLegalHoldsPreservationContent from "../../Cx/InsightArticleLegalHoldsPreservationContent";
 import InsightArticleLegalweek126kContent from "../../Cx/InsightArticleLegalweek126kContent";
 import InsightArticleMarlaMohrContent from "../../Cx/InsightArticleMarlaMohrContent";
-import InsightArticleIconectIrContent from "../../Cx/InsightArticleIconectIrContent";
 import InsightArticleIso27001Content from "../../Cx/InsightArticleIso27001Content";
 import InsightArticleLegalOpsTrailblazersContent from "../../Cx/InsightArticleLegalOpsTrailblazersContent";
 import InsightArticleLifePreserversContent from "../../Cx/InsightArticleLifePreserversContent";
@@ -71,7 +69,6 @@ import {
   DETAIL_SLUG_BEYOND_BUZZ_AI,
   DETAIL_SLUG_BOLDER_2026,
   DETAIL_SLUG_CAL_ACTIVE_LEARNING,
-  DETAIL_SLUG_CASEGUILD_PARTNERSHIP,
   DETAIL_SLUG_CLOUD_EDISCOVERY,
   DETAIL_SLUG_COVID_ONGOING,
   DETAIL_SLUG_DATA_GOVERNANCE_DENVER,
@@ -89,7 +86,6 @@ import {
   DETAIL_SLUG_FTC_NONCOMPETE,
   DETAIL_SLUG_GENAI_ETHICS,
   DETAIL_SLUG_GENAI_HYPE_HANDS,
-  DETAIL_SLUG_ICONECT_IR,
   DETAIL_SLUG_ISO_27001,
   DETAIL_SLUG_LEGAL_GEEK_CHICAGO,
   DETAIL_SLUG_LEGAL_HOLDS_PRESERVATION,
@@ -167,7 +163,6 @@ const ARTICLE_BODY_BY_SLUG = {
   [DETAIL_SLUG_PRIVILEGE_CLE_DC]: InsightArticlePrivilegeCleDcContent,
   [DETAIL_SLUG_AI_LITIGATION_CLE]: InsightArticleAiLitigationCleContent,
   [DETAIL_SLUG_LEGALWEEK_126K]: InsightArticleLegalweek126kContent,
-  [DETAIL_SLUG_CASEGUILD_PARTNERSHIP]: InsightArticleCaseguildPartnershipContent,
   [DETAIL_SLUG_EDISCOVERY_AI_PARTNERSHIP]: InsightArticleEdiscoveryAiPartnershipContent,
   [DETAIL_SLUG_MASTERS_DALLAS_DYNASTY]: InsightArticleMastersDallasDynastyContent,
   [DETAIL_SLUG_MODERN_COMMUNICATIONS_STORY]:
@@ -179,7 +174,6 @@ const ARTICLE_BODY_BY_SLUG = {
   [DETAIL_SLUG_MASTERS_NAVIGATE_NEXT_WAVE]: InsightArticleMastersNavigateWaveContent,
   [DETAIL_SLUG_FORENSICS_CSI]: InsightArticleForensicsCsiContent,
   [DETAIL_SLUG_EVERLAW_PARTNERSHIP_ENHANCED]: InsightArticleEverlawPartnershipEnhancedContent,
-  [DETAIL_SLUG_ICONECT_IR]: InsightArticleIconectIrContent,
   [DETAIL_SLUG_RICH_ROBINSON_INTERVIEW]: InsightArticleRichRobinsonInterviewContent,
   [DETAIL_SLUG_PAPER_CHASE_PIXEL]: InsightArticlePaperChasePixelContent,
   [DETAIL_SLUG_MASTERS_POWER_SKILLS_LAUNCH]:

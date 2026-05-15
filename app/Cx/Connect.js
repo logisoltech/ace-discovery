@@ -2,15 +2,13 @@ import Image from "next/image";
 
 const logos = [
   { src: "/relativity.png", alt: "Relativity", w: 1998, h: 545 },
-  { src: "/iconet.png", alt: "iCONECT", w: 1600, h: 358 },
   { src: "/ediscovery.png", alt: "eDiscovery AI", w: 500, h: 107 },
-  { src: "/caseguild.png", alt: "CaseGuild", w: 500, h: 107 },
   { src: "/everlaw.png", alt: "Everlaw", w: 500, h: 107 },
 ];
 
 function LogoBar() {
   return (
-    <div className="bg-[#0e5599]">
+    <div className="bg-[#004972]">
       <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 py-6 md:py-8">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-5 sm:gap-x-12 md:gap-x-16 lg:justify-between">
           {logos.map((logo) => (
@@ -89,7 +87,7 @@ function ContactForm() {
             <div className="sm:col-span-2 mt-2">
               <button
                 type="submit"
-                className="bg-[#0e5599] hover:bg-[#0d4c8a] transition-colors text-white text-sm font-medium px-8 py-2.5 rounded-md"
+                className="bg-[#095786] hover:bg-[#2484C6] transition-colors text-white text-sm font-medium px-8 py-2.5 rounded-md"
               >
                 Submit
               </button>

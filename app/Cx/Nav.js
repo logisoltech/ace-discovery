@@ -156,8 +156,8 @@ export default function Nav() {
                   href={item.href}
                   className={`px-3 py-1.5 text-[13px] xl:text-sm font-medium transition-colors rounded-full ${
                     active
-                      ? "text-[#1d6fff]"
-                      : "text-gray-700 hover:text-[#1d6fff]"
+                      ? "text-[#2484C6]"
+                      : "text-gray-700 hover:text-[#2484C6]"
                   }`}
                 >
                   {item.label}
@@ -176,15 +176,15 @@ export default function Nav() {
           <button
             type="button"
             aria-label="Search"
-            className="text-[#1d6fff] hover:text-[#0d5fef] p-2 rounded-full transition-colors"
+            className="text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors"
           >
             <SearchIcon />
           </button>
           <Link
             href="/project-ticket"
             aria-label="Project ticket form"
-            className={`text-[#1d6fff] hover:text-[#0d5fef] p-2 rounded-full transition-colors ${
-              pathname === "/project-ticket" ? "ring-2 ring-[#1d6fff]/35 ring-offset-2 ring-offset-transparent" : ""
+            className={`text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors ${
+              pathname === "/project-ticket" ? "ring-2 ring-[#2484C6]/35 ring-offset-2 ring-offset-transparent" : ""
             }`}
           >
             <MenuListIcon />
@@ -192,7 +192,7 @@ export default function Nav() {
           <button
             type="button"
             aria-label="Account"
-            className="text-[#1d6fff] hover:text-[#0d5fef] p-1.5 rounded-full transition-colors"
+            className="text-[#2484C6] hover:text-[#4db3ea] p-1.5 rounded-full transition-colors"
           >
             <UserIcon />
           </button>
@@ -203,7 +203,7 @@ export default function Nav() {
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="md:hidden text-[#1d6fff] hover:text-[#0d5fef] p-2 rounded-full transition-colors"
+          className="md:hidden text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors"
         >
           <HamburgerIcon open={open} />
         </button>
@@ -221,8 +221,8 @@ export default function Nav() {
                     onClick={() => setOpen(false)}
                     className={`block px-5 py-3 text-sm font-medium transition-colors ${
                       active
-                        ? "text-[#1d6fff] bg-[#1d6fff]/5"
-                        : "text-gray-700 hover:text-[#1d6fff] hover:bg-black/5"
+                        ? "text-[#2484C6] bg-[#2484C6]/5"
+                        : "text-gray-700 hover:text-[#2484C6] hover:bg-black/5"
                     }`}
                   >
                     {item.label}
@@ -235,7 +235,7 @@ export default function Nav() {
             <button
               type="button"
               aria-label="Search"
-              className="text-[#1d6fff] hover:text-[#0d5fef] p-2 rounded-full transition-colors"
+              className="text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors"
             >
               <SearchIcon />
             </button>
@@ -243,8 +243,8 @@ export default function Nav() {
               href="/project-ticket"
               aria-label="Project ticket form"
               onClick={() => setOpen(false)}
-              className={`text-[#1d6fff] hover:text-[#0d5fef] p-2 rounded-full transition-colors ${
-                pathname === "/project-ticket" ? "ring-2 ring-[#1d6fff]/35 ring-offset-2 ring-offset-transparent" : ""
+              className={`text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors ${
+                pathname === "/project-ticket" ? "ring-2 ring-[#2484C6]/35 ring-offset-2 ring-offset-transparent" : ""
               }`}
             >
               <MenuListIcon />
@@ -252,7 +252,7 @@ export default function Nav() {
             <button
               type="button"
               aria-label="Account"
-              className="text-[#1d6fff] hover:text-[#0d5fef] p-1.5 rounded-full transition-colors"
+              className="text-[#2484C6] hover:text-[#4db3ea] p-1.5 rounded-full transition-colors"
             >
               <UserIcon />
             </button>

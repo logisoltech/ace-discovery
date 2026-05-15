@@ -1,14 +1,14 @@
 "use client";
 
 const inputClasses =
-  "w-full bg-white/5 border border-white/15 rounded-md px-4 py-2.5 text-white text-sm placeholder:text-white/30 focus:outline-none focus:border-[#1d6fff] focus:bg-white/10 transition-colors";
+  "w-full bg-white/5 border border-white/15 rounded-md px-4 py-2.5 text-white text-sm placeholder:text-white/30 focus:outline-none focus:border-[#2484C6] focus:bg-white/10 transition-colors";
 
 function TextField({ id, label, type = "text", required = false }) {
   return (
     <div className="flex flex-col">
       <label htmlFor={id} className="text-white text-sm font-medium mb-2">
         {label}
-        {required && <span className="text-[#1d6fff]">*</span>}
+        {required && <span className="text-[#2484C6]">*</span>}
       </label>
       <input
         id={id}
@@ -26,7 +26,7 @@ function SelectField({ id, label, required = false }) {
     <div className="flex flex-col">
       <label htmlFor={id} className="text-white text-sm font-medium mb-2">
         {label}
-        {required && <span className="text-[#1d6fff]">*</span>}
+        {required && <span className="text-[#2484C6]">*</span>}
       </label>
       <div className="relative">
         <select
@@ -106,7 +106,7 @@ export default function ProjectTicketSection() {
           <div className="pt-4">
             <button
               type="submit"
-              className="bg-[#1d6fff] hover:bg-[#0d5fef] transition-colors text-white text-sm font-semibold tracking-wide uppercase px-10 py-3 rounded-md shadow-lg shadow-blue-900/30"
+              className="bg-[#095786] hover:bg-[#2484C6] transition-colors text-white text-sm font-semibold tracking-wide uppercase px-10 py-3 rounded-md shadow-lg shadow-blue-900/30"
             >
               Submit
             </button>

@@ -1,13 +1,13 @@
 import Link from "next/link";
 
 const link =
-  "font-medium text-blue-400 underline decoration-blue-400/80 underline-offset-2 hover:text-blue-300";
+  "font-medium text-[#2484C6] underline decoration-[#2484C6]/80 underline-offset-2 hover:text-[#4db3ea]";
 
 export default function InsightArticleAiLitigationCleContent() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-14 md:py-16 lg:px-8">
       <p className="mb-6 text-lg italic text-white/90">
-        Right Discovery Staff Writer
+        AC Discovery Staff Writer
       </p>
 
       <p className="mb-6 text-base leading-relaxed text-white/95 sm:text-lg">
@@ -32,7 +32,7 @@ export default function InsightArticleAiLitigationCleContent() {
 
       <h2
         className="mb-3 rounded-lg px-4 py-3 text-lg font-bold text-white sm:text-xl"
-        style={{ backgroundColor: "#0e5599" }}
+        style={{ backgroundColor: "#004972" }}
       >
         Faculty
       </h2>
@@ -56,17 +56,6 @@ export default function InsightArticleAiLitigationCleContent() {
         </li>
         <li>
           <a
-            href="https://www.caseguild.com/"
-            className={link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Danny Thankachan
-          </a>
-          , CaseGuild
-        </li>
-        <li>
-          <a
             href="https://www.vhhlawfirm.com/"
             className={link}
             target="_blank"
@@ -83,7 +72,7 @@ export default function InsightArticleAiLitigationCleContent() {
           >
             Kevin M. Clark
           </a>
-          , Right Discovery
+          , AC Discovery
         </li>
       </ul>
 
@@ -148,9 +137,9 @@ export default function InsightArticleAiLitigationCleContent() {
       <p className="text-sm text-white/80">
         Thanks to sponsors including{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
-        , mmData, CaseGuild, Troutman eMerge LLC, and Vartabedian Hester &amp; Haynes
+        , mmData, Troutman eMerge LLC, and Vartabedian Hester &amp; Haynes
         LLP.
       </p>
 
@@ -158,7 +147,7 @@ export default function InsightArticleAiLitigationCleContent() {
         <strong className="text-white/90">Topics:</strong> generative AI, litigation,
         CLE, Dallas, paralegals, workflows,{" "}
         <Link href="/" className={link}>
-          Right Discovery
+          AC Discovery
         </Link>
       </p>
     </article>
