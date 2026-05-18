@@ -37,14 +37,14 @@ export default function ContactSection() {
           Let&apos;s <span className="text-[#2484C6]">Connect</span>
         </h1>
 
-        <p className="mt-6 text-center text-white/70 text-sm sm:text-base">
+        {/* <p className="mt-6 text-center text-white/70 text-sm sm:text-base">
           <a
             href="mailto:chris.arellano@ac-discovery.net"
             className="font-medium text-[#2484C6] hover:text-[#4db3ea] underline underline-offset-2 transition-colors"
           >
             chris.arellano@ac-discovery.net
           </a>
-        </p>
+        </p> */}
 
         <form
           onSubmit={(e) => e.preventDefault()}
