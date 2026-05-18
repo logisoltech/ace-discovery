@@ -164,8 +164,8 @@ export default function InsightArticleGenaiEthicsContent() {
         CLEs similar to this topic, that will give you practical strategies to
         strengthen client service, manage risk, and create measurable impact in
         your practice. Contact us at{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
-          solutions@rightdiscovery.com
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
+          chris.arellano@ac-discovery.net
         </a>{" "}
         to learn more.
       </p>

@@ -119,6 +119,7 @@ import {
   DETAIL_SLUG_UNDER_ATTACK_CYBER,
   DETAIL_SLUG_WEST_COAST_ROADSHOW,
   getInsightBySlug,
+  insightArticles,
   INSIGHT_BRAND_BLUE,
 } from "../../Cx/insightArticlesData";
 import Nav from "../../Cx/Nav";
@@ -187,7 +188,9 @@ const ARTICLE_BODY_BY_SLUG = {
 };
 
 export function generateStaticParams() {
-  return Object.keys(ARTICLE_BODY_BY_SLUG).map((slug) => ({ slug }));
+  return insightArticles
+    .filter((a) => a.hasArticlePage && ARTICLE_BODY_BY_SLUG[a.slug])
+    .map((a) => ({ slug: a.slug }));
 }
 
 export default async function InsightArticlePage({ params }) {

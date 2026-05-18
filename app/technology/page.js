@@ -21,7 +21,7 @@ export default function TechnologyPage() {
       <TechnologyRow
         reverse
         cardClassName="bg-white/21"
-        arrowLinkClassName="text-[#2484C6] hover:text-[#4db3ea]"
+        arrowLinkClassName="text-[#004972] hover:text-[#2484C6]"
         screenSrc="/relativity-screen.png"
         screenWidth={1000}
         screenHeight={750}

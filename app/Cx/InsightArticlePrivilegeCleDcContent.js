@@ -90,8 +90,8 @@ export default function InsightArticlePrivilegeCleDcContent() {
           Register via Crowell &amp; Moring →
         </a>{" "}
         or contact{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
-          solutions@rightdiscovery.com
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
+          chris.arellano@ac-discovery.net
         </a>{" "}
         for routing help.
       </p>

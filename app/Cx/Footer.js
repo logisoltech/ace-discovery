@@ -190,7 +190,7 @@ export default function Footer() {
               </button>
             </form>
 
-            <SocialIcons />
+            {/* <SocialIcons /> */}
 
             <p className="text-white/65 text-xs mt-8">
               {new Date().getFullYear()} - AC eDiscovery Services

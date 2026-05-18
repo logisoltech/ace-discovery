@@ -80,8 +80,8 @@ export default function InsightArticleLegalGeekChicagoContent() {
 
       <p className="mb-6 text-base leading-relaxed text-white/95 sm:text-lg">
         Meet Marla on-site or reach her at{" "}
-        <a href="mailto:Marla.M@rightdiscovery.com" className={link}>
-          Marla.M@rightdiscovery.com
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
+          chris.arellano@ac-discovery.net
         </a>
         .
       </p>

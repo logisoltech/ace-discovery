@@ -122,7 +122,7 @@ export default function Hero() {
           </h1>
 
           <div className="mt-6 flex items-start gap-4 max-w-md">
-            <span className="block w-[3px] self-stretch bg-[#2484C6] rounded-full" />
+            <span className="block w-[3px] self-stretch bg-[#004972] rounded-full" />
             <p className="text-white/75 text-sm sm:text-[15px] leading-relaxed">
               Technology consultants, finding the right solutions for all your
               litigation needs

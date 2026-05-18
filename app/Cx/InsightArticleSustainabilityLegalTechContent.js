@@ -32,7 +32,7 @@ export default function InsightArticleSustainabilityLegalTechContent() {
         It&apos;s not just good business—it&apos;s the right thing to do.&quot;
         <span className="mt-2 block text-sm not-italic text-white/80">
           —{" "}
-          <a href="mailto:solutions@rightdiscovery.com" className={link}>
+          <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
             Kevin M. Clark
           </a>
           , CEO

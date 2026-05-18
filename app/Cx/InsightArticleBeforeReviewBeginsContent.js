@@ -77,8 +77,8 @@ export default function InsightArticleBeforeReviewBeginsContent() {
           Register and join us
         </Link>{" "}
         — and if you&apos;d prefer a concierge path, ping{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
-          solutions@rightdiscovery.com
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
+          chris.arellano@ac-discovery.net
         </a>{" "}
         about complimentary passes remaining for strategic partners juggling calendar
         conflicts.

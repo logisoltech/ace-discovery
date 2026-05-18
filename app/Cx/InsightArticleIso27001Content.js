@@ -64,10 +64,10 @@ export default function InsightArticleIso27001Content() {
         <p className="mb-1">Christina Nguyen</p>
         <p className="mb-1">
           <a
-            href="mailto:christina@rightdiscovery.com"
+            href="mailto:chris.arellano@ac-discovery.net"
             className={link}
           >
-            christina@rightdiscovery.com
+            chris.arellano@ac-discovery.net
           </a>
         </p>
         <p>(469) 592-5100</p>

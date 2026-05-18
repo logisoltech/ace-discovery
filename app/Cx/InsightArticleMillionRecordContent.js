@@ -283,8 +283,8 @@ export default function InsightArticleMillionRecordContent() {
           it&apos;s about being able to prove them.
         </strong>{" "}
         Start a conversation at{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
-          solutions@rightdiscovery.com
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
+          chris.arellano@ac-discovery.net
         </a>
         .
       </p>

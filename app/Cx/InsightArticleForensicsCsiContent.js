@@ -43,7 +43,7 @@ export default function InsightArticleForensicsCsiContent() {
           AC Discovery
         </Link>
         , we pair{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
           digital forensics
         </a>{" "}
         with hosting, review, legal ops support, cyber response, and trial logistics—

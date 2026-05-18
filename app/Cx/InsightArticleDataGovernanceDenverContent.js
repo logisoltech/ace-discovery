@@ -70,8 +70,8 @@ export default function InsightArticleDataGovernanceDenverContent() {
 
       <p className="mb-10 text-base leading-relaxed text-white/95 sm:text-lg">
         Need help sequencing remediation?{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
-          solutions@rightdiscovery.com
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
+          chris.arellano@ac-discovery.net
         </a>
       </p>
 

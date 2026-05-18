@@ -50,7 +50,7 @@ function StepDots() {
 function PaginationDots() {
   return (
     <div className="grid grid-cols-2 gap-3">
-      <span className="w-8 h-8 rounded-full bg-[#2484C6]" />
+      <span className="w-8 h-8 rounded-full bg-[#004972]" />
       <span className="w-8 h-8 rounded-full bg-white/65" />
       <span className="w-8 h-8 rounded-full bg-transparent" />
       <span className="w-8 h-8 rounded-full bg-white/25" />

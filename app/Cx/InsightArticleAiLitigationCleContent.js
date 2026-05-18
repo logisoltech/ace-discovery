@@ -67,7 +67,7 @@ export default function InsightArticleAiLitigationCleContent() {
         </li>
         <li>
           <a
-            href="mailto:solutions@rightdiscovery.com"
+            href="mailto:chris.arellano@ac-discovery.net"
             className={link}
           >
             Kevin M. Clark

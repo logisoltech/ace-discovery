@@ -17,11 +17,11 @@ export default function InsightArticleCalActiveLearningContent() {
       </p>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         In{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
           this executive briefing
         </a>
         , CEO{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
           Kevin M. Clark
         </a>{" "}
         walks through CAL deployments spanning regulatory probes, complex litigation, and

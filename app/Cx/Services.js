@@ -40,14 +40,14 @@ function CarouselArrows() {
       <button
         type="button"
         aria-label="Previous"
-        className="w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/10 hover:bg-white/15 border border-white/15 text-white/80 hover:text-white flex items-center justify-center transition-colors"
+        className="w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/10 hover:bg-white/15 border border-white/15 text-[#004972] hover:text-[#2484C6] flex items-center justify-center transition-colors"
       >
         <ChevronLeft />
       </button>
       <button
         type="button"
         aria-label="Next"
-        className="w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/10 hover:bg-white/15 border border-white/15 text-white/80 hover:text-white flex items-center justify-center transition-colors"
+        className="w-10 h-10 md:w-11 md:h-11 rounded-full bg-white/10 hover:bg-white/15 border border-white/15 text-[#004972] hover:text-[#2484C6] flex items-center justify-center transition-colors"
       >
         <ChevronRight />
       </button>
@@ -122,7 +122,7 @@ function AiDiscoveryIcon() {
 function ServiceCard({ Icon, title, description }) {
   return (
     <div className="rounded-2xl bg-white/6 backdrop-blur-md border border-white/10 px-6 py-7 md:px-7 md:py-8 flex flex-col items-center text-center">
-      <span className="w-12 h-12 rounded-lg bg-[#2484C6] text-white flex items-center justify-center">
+      <span className="w-12 h-12 rounded-lg bg-[#004972] text-white flex items-center justify-center">
         <Icon />
       </span>
       <h3 className="text-white text-base md:text-lg font-medium mt-5">

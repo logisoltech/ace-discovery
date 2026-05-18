@@ -67,7 +67,7 @@ function ScalesIcon() {
 function IconCircle({ Icon, label }) {
   return (
     <div className="flex flex-col items-center gap-3">
-      <span className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-black border border-white/15 text-[#2484C6] flex items-center justify-center shadow-lg shadow-black/40">
+      <span className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white/90 border border-white/20 text-[#004972] flex items-center justify-center shadow-lg shadow-black/40">
         <Icon />
       </span>
       <p className="text-white/75 text-[11px] sm:text-xs font-medium text-center leading-tight max-w-[100px]">

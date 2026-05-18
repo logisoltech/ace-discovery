@@ -97,7 +97,7 @@ export default function InsightArticleMastersDcDevicesContent() {
       </p>
       <p className="mb-10 text-base leading-relaxed text-white/95 sm:text-lg">
         Need help tailoring collection through production for unconventional datasets?{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
           Connect with our advisors →
         </a>
       </p>

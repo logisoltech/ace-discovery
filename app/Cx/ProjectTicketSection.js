@@ -46,7 +46,7 @@ function SelectField({ id, label, required = false }) {
           <option value="trial-services">Trial services</option>
           <option value="other">Other</option>
         </select>
-        <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-white/50">
+        <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[#004972]">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path
               d="M6 9l6 6 6-6"

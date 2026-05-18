@@ -176,15 +176,15 @@ export default function Nav() {
           <button
             type="button"
             aria-label="Search"
-            className="text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors"
+            className="text-[#004972] hover:text-[#2484C6] p-2 rounded-full transition-colors"
           >
             <SearchIcon />
           </button>
           <Link
             href="/project-ticket"
             aria-label="Project ticket form"
-            className={`text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors ${
-              pathname === "/project-ticket" ? "ring-2 ring-[#2484C6]/35 ring-offset-2 ring-offset-transparent" : ""
+            className={`text-[#004972] hover:text-[#2484C6] p-2 rounded-full transition-colors ${
+              pathname === "/project-ticket" ? "ring-2 ring-[#004972]/35 ring-offset-2 ring-offset-transparent" : ""
             }`}
           >
             <MenuListIcon />
@@ -192,7 +192,7 @@ export default function Nav() {
           <button
             type="button"
             aria-label="Account"
-            className="text-[#2484C6] hover:text-[#4db3ea] p-1.5 rounded-full transition-colors"
+            className="text-[#004972] hover:text-[#2484C6] p-1.5 rounded-full transition-colors"
           >
             <UserIcon />
           </button>
@@ -203,7 +203,7 @@ export default function Nav() {
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="md:hidden text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors"
+          className="md:hidden text-[#004972] hover:text-[#2484C6] p-2 rounded-full transition-colors"
         >
           <HamburgerIcon open={open} />
         </button>
@@ -235,7 +235,7 @@ export default function Nav() {
             <button
               type="button"
               aria-label="Search"
-              className="text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors"
+              className="text-[#004972] hover:text-[#2484C6] p-2 rounded-full transition-colors"
             >
               <SearchIcon />
             </button>
@@ -243,8 +243,8 @@ export default function Nav() {
               href="/project-ticket"
               aria-label="Project ticket form"
               onClick={() => setOpen(false)}
-              className={`text-[#2484C6] hover:text-[#4db3ea] p-2 rounded-full transition-colors ${
-                pathname === "/project-ticket" ? "ring-2 ring-[#2484C6]/35 ring-offset-2 ring-offset-transparent" : ""
+              className={`text-[#004972] hover:text-[#2484C6] p-2 rounded-full transition-colors ${
+                pathname === "/project-ticket" ? "ring-2 ring-[#004972]/35 ring-offset-2 ring-offset-transparent" : ""
               }`}
             >
               <MenuListIcon />
@@ -252,7 +252,7 @@ export default function Nav() {
             <button
               type="button"
               aria-label="Account"
-              className="text-[#2484C6] hover:text-[#4db3ea] p-1.5 rounded-full transition-colors"
+              className="text-[#004972] hover:text-[#2484C6] p-1.5 rounded-full transition-colors"
             >
               <UserIcon />
             </button>

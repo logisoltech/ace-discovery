@@ -189,6 +189,7 @@ export const DETAIL_SLUG_MASTERS_DC_DEVICES =
 const SLUGS_WITH_FULL_ARTICLE = new Set([
   DETAIL_SLUG_ESI_GENAI,
   DETAIL_SLUG_DATA_OVERLOAD,
+  /* Add more: uncomment when the matching article is uncommented in rawArticles below.
   DETAIL_SLUG_MILLION_RECORD,
   DETAIL_SLUG_GENAI_ETHICS,
   DETAIL_SLUG_BOLDER_2026,
@@ -245,6 +246,7 @@ const SLUGS_WITH_FULL_ARTICLE = new Set([
   DETAIL_SLUG_FTC_NONCOMPETE,
   DETAIL_SLUG_COVID_ONGOING,
   DETAIL_SLUG_MASTERS_DC_DEVICES,
+  */
 ]);
 
 function slugify(title) {
@@ -270,6 +272,7 @@ const rawArticles = [
       "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=960&q=80",
     alt: "Modern office workspace with laptops and natural light",
   },
+  /* More insights: uncomment blocks below; for full articles also uncomment the matching slug above.
   {
     title: "Million-Record Reality: How to Keep Review Fast and Defensible",
     image:
@@ -704,6 +707,7 @@ const rawArticles = [
     image: "/firm.png",
     alt: "Project managers partnering with counsel on discovery timelines",
   },
+  */
 ];
 
 export const insightArticles = rawArticles.map((item, index) => {

@@ -46,7 +46,7 @@ export default function InsightArticleLegalweek126kContent() {
       </p>
       <p className="mb-4 text-base leading-relaxed text-white/95 sm:text-lg">
         CEO{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
           Kevin M. Clark
         </a>
         , Everlaw product leaders, and Blank Rome counsel will dissect precision,
@@ -75,8 +75,8 @@ export default function InsightArticleLegalweek126kContent() {
 
       <p className="mb-10 text-base leading-relaxed text-white/95 sm:text-lg">
         Space is deliberately tight—email{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
-          solutions@rightdiscovery.com
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
+          chris.arellano@ac-discovery.net
         </a>{" "}
         or DM the AC Discovery events desk for guest-list consideration.
       </p>

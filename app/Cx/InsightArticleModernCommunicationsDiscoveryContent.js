@@ -13,7 +13,7 @@ export default function InsightArticleModernCommunicationsDiscoveryContent() {
       <p className="mb-6 text-base leading-relaxed text-white/95 sm:text-lg">
         eDiscovery&apos;s guardrails keep widening as Slack threads, geolocation, and
         cloud exports join the evidence mix. Join CEO{" "}
-        <a href="mailto:solutions@rightdiscovery.com" className={link}>
+        <a href="mailto:chris.arellano@ac-discovery.net" className={link}>
           Kevin M. Clark
         </a>
         , forensics principal <strong className="text-white">Jerry Bui</strong> (
